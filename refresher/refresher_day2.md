@@ -23,15 +23,13 @@ Vinzenz Männig
 ---
 <!--header: Wiederholung Tag 2-->
 <!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
-![h:400](images/repeat_day2_graph1.jpg)
+![h:400](../analysis/images/repeat_day2_graph1.jpg)
 1. $f(x) = -x^5 + x^3 +2$
 2. $g(x) = -2x^5 + 2$
 3. $h(x) = -x^3 + 1$
 
 ---
-<!--header: Wiederholung Tag 2-->
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
-![h:400](images/repeat_day2_graph2.jpg)
+![h:400](../analysis/images/repeat_day2_graph2.jpg)
 1. $f(x) = \mathrm e ^{-x^2}$
 2. $g(x) = - \mathrm e ^{-x}$
 3. $h(x) = -2 \mathrm e ^{-2x}$

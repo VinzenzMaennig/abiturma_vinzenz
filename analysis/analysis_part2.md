@@ -15,6 +15,14 @@ backgroundColor: white
 title: Analysis Teil 2
 description: Second part of the analysis slides
 ---
+# Analysis Teil 2
+- Integration
+- Flächeninhalte
+- Integralfunktion
+- Uneigentliche Integrale
+- Umkehrfunktionen
+
+---
 <!--header: Analysis | Integration-->
 <!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
 ### Integration
@@ -117,8 +125,55 @@ $-x^2+4x = x^2-2x \implies x_1 = 0, x_2 = 3$
 | schwer | 72 |
 
 Für Schnelle und Unterforderte:
-- Kapitel 17.2 mit Aufgabe 73
-- Kapitel 18.1 mit Aufgabe 76
+- Aufgabe 87 ff.
+---
+
+---
+
+---
+<!--header: Analysis | Integration: Integralfunktionen-->
+### Integralfunktion
+$f(x) = \int \limits_1^x g(t) dt$
+- Ein Integral mit variabler oberer oder unterer Grenze heißt Integralfunktion.
+- Das Integral berechnet hier keinen Flächeninhalt mit gegebenen Grenzen, sondern beantwortet die Frage: "Wie weit muss ich integrieren, um einen bestimmten Flächeninhalt einzuschließen?"
+
+---
+##### Rezept mit Beispiel
+$f(x) = \int \limits_2^x(2t+4)dt, x>2$, gewünschter Flächeninhalt: 9
+Bonus: Es gilt $f(2) = 0$, Warum?
+1. Integral ausformulieren
+$f(x) = \int \limits_2^x(2t+4)dt = [t^2+4t]_2^x = x^2+4x-(2^2+4 \cdot 2)=$
+= $x^2+4x-12$
+2. Integral mit dem gewünschten Flächeninhalt gleichsetzen
+$x^2+4x-12 = 9 \implies x_1 = -7, x_2 = 3$
+Obere Grenze ist somit $x=3$
+
+---
+![w:800](images/integralfunktionen_aufgabe.jpg)
+
+---
+### Uneigentliche Integrale
+- Eine Fläche kann ins Unendliche reichen und dennoch endlichen Flächeninhalt besitzen. Das heißt dann uneigentliches Integral.
+
+$f(x)= \mathrm e ^{-x}$, Bestimme Fläche unter Graphen für $x \geq 0$
+1. Integral mit einer variablen Grenze aufstellen
+$A(z) = \int \limits_0^z \mathrm e^{-x}dx = [- \mathrm e^{-x}]_0^z = -\mathrm e^{-z}+1$
+2. Grenzwertbetrachtung
+$A(+\infty) = \lim \limits_{z \to \infty} A(z) = \lim \limits_{z \to \infty} -\mathrm e^{-z}+1 = \lim \limits_{z \to \infty} -\frac{1}{\mathrm e^{z}}+1 =$
+$= \lim \limits_{z \to \infty} -0+1 = 1$
+
+---
+### Integration: Rechenblock 3
+
+| Schwierigkeit | Aufgaben |
+| ----------- | ----------- |
+| leicht |  |
+| mittel |  |
+| schwer | 76 |
+
+- Aufgaben vom Extrablatt zu Integralfunktionen
+
+Für Schnelle und Unterforderte:
 - Aufgabe 87 ff.
 ---
 

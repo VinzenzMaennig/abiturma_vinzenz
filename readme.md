@@ -5,6 +5,7 @@
 - Bundesland mit Mitternachts oder pq formel?
 - Welcher stoff kommt überhaupt dran?
 - Aufgabennummerierung anpassen
+- Auswertung einbauen
 
 ### Moodle
 - Email adressen auslesen
@@ -14,5 +15,8 @@
 
 ## One time
 - Welche Aufgaben rechne ich live vor und welche nicht? -> Lösungsblatt schrieben
-- Wertemenge und Verhältnis W und D einbauen -> umkehrfunktionen
 - Quiz erstellen
+- Analysis Part 3 vollständig und schöner machen (v.a Scharen).
+- Refresher überarbeiten, mehr aufgaben und größere varianz
+- Geometrie
+- Stochastik

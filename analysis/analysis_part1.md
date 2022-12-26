@@ -19,7 +19,7 @@ description: First part of the analysis slides
 [comment]: <> (<!--color: red-->)
 [comment]: <> (use underscore to make a command local)
 
-# Analysis Part 1
+# Analysis Teil 1
 - Gleichungen
 - Grundlagen
 - Funktionen
@@ -450,6 +450,10 @@ Für Schnelle und Unterforderte:
 ---
 <!--header: Analysis | Kurvendiskussion: Tangentengleichungen-->
 ### Tangentengleichungen $y = mx +c$
+- Tangentengleichung an einem Punkt
+- Tangentengleichung mit gegebener Steigung
+
+---
 ##### Tangentengleichung an einem Punkt: Rezept mit Beispiel
 
 $f(x)=-3x^2-x, \quad x = -1$
@@ -497,6 +501,26 @@ $c = -3$
 4. Geradengleichung angeben $y = 6x - 3$
 
 ---
+### Normale
+Zwei Funktionen $f_1$ mit der Steigung $m_1$ an der Stelle $x_0$ und $f_2$ mit der Steigung $m_2$ an der Stelle $x_0$ sind im Punkt $x_0$ senkrecht zu einander wenn gilt:
+$m_1 = -\frac{1}{m_2}$
+
+---
+##### Rezept für Normalen mit Beispiel
+$f(x) = x^3-2, \quad P(-1|-3)$: Bestimme Normale im Punkt P
+
+1. Ableiten
+$f^\prime(x) = 3x^2$
+2. Gewünschten Punkt in Ableitung einsetzen
+$m_t = f^\prime(-1) = 3(-1)^2 = 3$
+3. Steigung der Normalen bestimmen
+$m_n ) -\frac{1}{m_t} = -\frac{1}{3}$
+4. Alles in die Geradengeleichung einsetzen und c ausrechnen
+$y = mx+c \implies -3 =  -\frac{1}{3} \cdot (-1) + c \implies c = -\frac{10}{3}$
+5. Normalengleichung angeben
+$y = -\frac{1}{3}x-\frac{10}{3}$
+
+---
 <!--header: Analysis | Kurvendiskussion: Rechenblock 3-->
 ### Kurvendiskussion: Rechenblock 3
 
@@ -507,6 +531,7 @@ $c = -3$
 | schwer | 37, 38, 42 |
 
 Für Schnelle und Unterforderte: 
+- Extrablatt zu den Normalen mit Aufgaben 57, 58, 59
 - Aufgabe 87 ff.
 
 ---
