@@ -22,7 +22,12 @@
 - Geometrie
 - Stochastik
 - Motivationsbeispiele Geo und stoch
-- Satz von Bayes
+- Satz von Bayes (https://www.youtube.com/watch?v=HZGCoVF3YvM)
 - Daniel Kahnemann thinking fast and slow
 - Alte Mitschriften durchsehen
 - Vorbereitungsplan erstellen
+- Newtonverfahren einbauen
+- Abwechslung einbauen (videos?, imaginär zahlen mit e?, alles ist e?,
+taylor reihen, motivation mit matrizen, backprop in neuronalen netzen, exponentialreihe)
+
+- Kugel Schnitte und Abstände

@@ -138,6 +138,10 @@ Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
 
 ---
+
+---
+
+---
 <!--header: Geometrie | Geraden, Ebenen und Kugeln-->
 ### Geraden, Ebenen und Kugeln
 ##### Geradengleichung
@@ -188,9 +192,10 @@ $A(2|3|-1), B(3|3|-2), C(-1|7|1)$
 $E: \vec X = \begin{pmatrix}2\\3\\-1 \end{pmatrix} + r \cdot \begin{pmatrix}1\\0\\-1 \end{pmatrix} + s \cdot \begin{pmatrix}-3\\4\\2 \end{pmatrix}$
 ---
 2. Normalenvektor mit Kreuzprodukt berechnen
+
 $n_E = \begin{pmatrix}1\\0\\-1 \end{pmatrix} \times \begin{pmatrix}-3\\4\\2 \end{pmatrix} =$
 &nbsp;
-&nbsp;
+
 3. Ansatz für Ebene aufstellen
 $E: 4x_1+x_2+4x_3 = a$
 4. Aufpunkt einsetzen und a ausrechnen
@@ -201,6 +206,7 @@ $E: 4x_1+x_2+4x_3 = 7$
 ---
 ##### Rezept Punktprobe in Ebene
 Wenn Ebene in Parameterform, versuch LGS zu lösen wie mit Gerade
+
 Wenn in Koordinatenform:
 $E: 2x_1+-x_2+3x_3 = 6, P(2|0|1)$
 1. Punkt einsetzen und Gleichheit überprüfen
@@ -250,6 +256,10 @@ Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
 
 ---
+
+---
+
+---
 <!--header: Geometrie | Lagebeziehungen und Schnittmengen-->
 ### Lagebeziehungen und Schnittmengen
 ##### Gerade und Gerade
@@ -260,104 +270,317 @@ $g: \vec X = \begin{pmatrix}-1\\-2\\6 \end{pmatrix} + r \cdot \begin{pmatrix}2\\
 
 ---
 1. Überprüfe Kolinearität der Richtungsvektoren
+
 $\begin{pmatrix}2\\2\\-1 \end{pmatrix} = ? \cdot \begin{pmatrix}0\\1\\2 \end{pmatrix} \implies$ Kein Wert geht für alle Zeilen
+
 2. Schnittpunkt bestimmen durch LGS lösen
+
 $\begin{pmatrix}-1\\-2\\6 \end{pmatrix} + r \cdot \begin{pmatrix}2\\2\\-1 \end{pmatrix} = \begin{pmatrix}1\\3\\11 \end{pmatrix} + s \cdot \begin{pmatrix}0\\1\\2 \end{pmatrix}$
+
 $I, -1 +2r=1$
 $II, -2+2r = 3+s$
 $III, 6-r = 11+2s$
-Einschub: Wie löse ich ein LGS mit zwei Variablen, aber drei Gleichungen? Erst das Gleichungssystem mit nur zwei Gleichungen lösen, dann die Gleichung an der dritten, noch ungesehenen, Gleichung testen.
 
 ---
+$I, -1 +2r=1$
+$II, -2+2r = 3+s$
+$III, 6-r = 11+2s$
+
+Einschub: Wie löse ich ein LGS mit zwei Variablen, aber drei Gleichungen? Erst das Gleichungssystem mit nur zwei Gleichungen lösen, dann die Gleichung an der dritten, noch ungesehenen, Gleichung testen.
+
 $I, -1 +2r=1 \implies r=1$
 $II, -2+2r = 3+s \implies s = -3$
 
 in $III: 6-1 = 11+2(-3) \implies 5=5 \implies$ Lösung gültig!
+
+---
 3. Schnittpunkt durch einsetzen in Geradengleichung bestimmen (es ist egal, welche der Gleichungen verwendet wird)
+
 $\vec S = \begin{pmatrix}-1\\-2\\6 \end{pmatrix} + 1 \cdot \begin{pmatrix}2\\2\\-1 \end{pmatrix} = \begin{pmatrix}1\\0\\5 \end{pmatrix}$
 
 ---
 ##### Ebene und Ebene
 ![h:270](images/ebene_ebene.jpg)
 
+---
 ##### Rezept mit Beispiel
+$E: 3x_1-4x_2-x_3=4, \quad F: 3x_1-3x_2+x_3=3$
+1. Sind die Normalenvektoren kolinear?
+
+$\begin{pmatrix}3\\-4\\-1 \end{pmatrix} = ? \cdot \begin{pmatrix}3\\-3\\1 \end{pmatrix} \implies$ Kein Wert geht für alle Zeilen
+
+2. Bestimme Schnittmenge durch LGS der Ebenen
+
+$I, 3x_1-4x_2-x_3=4$
+$II, 3x_1-3x_2+x_3=3$
+
+---
+$I, 3x_1-4x_2-x_3=4$
+$II, 3x_1-3x_2+x_3=3$
+
+Einschub: Wie löse ich ein LGS mit drei Variablen, aber zwei Gleichungen? Hier kann es keine eindeutige Lösung geben (Entspräche einem Schnittpunkt), nur der Fall keine Lösung (Ebenen sind parallel) oder viele Lösungen (Schnittgerade) kommt in Frage.
+Man setzt nun eine Variable zu einem Parameter (z.B $r$) und behandelt durch diesen Trick das LGS wie den Fall zwei Variablen, zwei Gleichungen.
+Am Ende kann man dann das Ergebnis umformen um wie eine Gerade auszusehen.
+
+---
+2. Bestimme Schnittmenge durch LGS der Ebenen
+
+mit $x_3 = r$
+$I, 3x_1-4x_2-x_3=4 \implies 3x_1-4x_2-r=4$
+$II, 3x_1-3x_2+x_3=3 \implies 3x_1-3x_2+r=3$
+
+Lösen:
+$I-II: 3x_1-4x_2-r - (3x_1-3x_2+r) = 4-3$
+$x_2-2r=1 \implies x_2 = -1-2r$
+in $I: 3x_1-4x(-1-2r)-r=4 \implies x_1 = - \frac{7}{3}r$
+
+3. Geradengleichung aufstellen
+
+$\vec X = \begin{pmatrix}x_1\\x_2\\x_3 \end{pmatrix} = \begin{pmatrix}- \frac{7}{3}r\\-1-2r\\r \end{pmatrix} = \begin{pmatrix}0\\-1\\0 \end{pmatrix} + r \cdot \begin{pmatrix}- \frac{7}{3}\\-2\\1 \end{pmatrix}$
 
 ---
 ##### Gerade und Ebene
 ![h:230](images/gerade_ebene.jpg)
 
+- Man kann den Schnittpunkt auch mit Ebenen in Parameterform ausrechnen. Allerdings muss dann ein LGS mit drei Variablen und drei Gleichungen gelöst werden, was mühseelig und fehleranfällig ist. Daher mein Tipp: In Koordinatenform umformen und damit weiter rechnen!
+
+---
 ##### Rezept mit Beispiel
+
+$\vec X = \begin{pmatrix}0\\1\\0 \end{pmatrix} + r \cdot \begin{pmatrix} 0\\-1\\2 \end{pmatrix}$
+$E: x_1+3x_3-2x_2 = 10$
+
+1. Sind Gerade und Ebene parallel?
+
+$\begin{pmatrix} 0\\-1\\2 \end{pmatrix} \circ \begin{pmatrix} 1\\3\\-2 \end{pmatrix} = 0 \cdot 1 + (-1) \cdot 3 + 2 \cdot (-2) =-7 \neq 0$
+
+2. Geradengleichung in Ebenengleichung einsetzen
+$(0 + r · 0) + 3 (1 + r · (-1)) - 2 (0 + r · 2) = 10$
+$3 - 3r - 4r = 10 \implies r = -1$
+
+---
+3. $r$ in Gerade einsetzen um Schnittpunkt zu bestimmen
+
+$\vec X = \begin{pmatrix}0\\1\\0 \end{pmatrix} + (-1) \cdot \begin{pmatrix} 0\\-1\\2 \end{pmatrix} = \begin{pmatrix} 0\\2\\-2 \end{pmatrix} \implies S(0|2|-2)$
 
 ---
 ##### Kugel und Ebene
 ![h:540](images/kugel_ebene.png)
 
 ---
-##### Rezept mit Beispiel
-
----
 ### Lagebeziehungen und Schnittmengen: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 128, 129 |
-| mittel | 130 |
+| leicht | 128, 129, 131, 133, 134, 135, 136 |
+| mittel | 130, 132, 137 |
 | schwer |  |
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
 
 ---
-<!--header: Geometrie | TODO-->
+
+---
+
+---
+<!--header: Geometrie | Winkel-->
 ### Winkel
+##### Zwei Vektoren
+$\cos \alpha = \frac{\vec a \circ \vec b}{|\vec a| \cdot |\vec b|}$
+Achtung: Beide Vektoren müssen
+von gemeinsamen Punkt wegezeigen
+
+##### Zwei schneidende Geraden
+Richtungsvektoren $\vec a$ und $\vec b$
+$\cos \alpha = \frac{|\vec a \circ \vec b|}{|\vec a| \cdot |\vec b|}$
+Mit Schnittwinkel ist immer der 
+spitze Winkel gemeint!
+
+---
+##### Gerade und Ebene
+Richtungsvektor $\vec a$ und Normalenvektor $\vec n$
+$\sin \alpha = \frac{|\vec a \circ \vec n|}{|\vec a| \cdot |\vec n|}$
+
+Warum $\sin$ und nicht $\cos$?
+$\sin(\alpha) = \cos(90° - \alpha)$
+
+---
+##### Zwei Ebenen
+Normalenvektoren $\vec n_1$ und $\vec n_2$
+$\cos \alpha = \frac{|\vec n_1 \circ \vec n_2|}{|\vec n_1| \cdot |\vec n_2|}$
 
 ---
 ### TODO: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht |  |
-| mittel |  |
-| schwer |  |
+| leicht | 138, 139, 140, 142, 143 |
+| mittel | 141 |
+| schwer | 144 |
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
 
 ---
-<!--header: Geometrie | TODO-->
+
+---
+
+---
+<!--header: Geometrie | Abstände-->
 ### Abstände
+Es gibt nur drei Grundfälle, alle anderen lassen sich auf diese drei zurückführen!
+##### Punkt - Punkt
+Mit zwei Punkten $A$ und $B$ ist der Abstand der Betrag des Verbindungsvektors
+$d(A,B) = |\vec {AB}|$
+
+Beispiel: $A( 3 | 1 | 2 ), \quad B( 6 | 5 | 2 )$
+$d(A,B) = |\vec {AB}| = \left| \begin{pmatrix} 6\\5\\2 \end{pmatrix} - \begin{pmatrix} 3\\1\\2 \end{pmatrix} \right| =$
+$= \sqrt{(6 - 3)^2 + (5 - 1)^2 + (2 - 2)^2} = 5$
+
+---
+##### Punkt - Ebene
+Der Abstand eines Punktes $P( p_1 | p_2 | p_3 )$ zu einer Ebene E
+$E : n_1x_1 + n_2x_2 + n_3x_3 = a$ ist
+
+$d(P, E) = \frac{|n_1p_1 + n_2p_2 + n_3p_3 - a|}{\sqrt{n^2_1+ n^2_2+ n^2_3}}$
+
+Beispiel: $P( 1 | 4 | 0 ), \quad E : 3x_1 + 4x_2 = 4$
+
+$d(P, E) = \frac{|3 \cdot 1 +4 \cdot 4 - 4 |}{\sqrt{3^2 + 4^2 + 0^2}} = \frac{|15|}{5} = 3$
+
+---
+##### Punkt - Gerade
+Zwei Möglichkeiten:
+- Mit Hilfsebene
+- Mit Skalarprodukt
+
+---
+##### Rezept Punkt - Gerade mit Hilfsebene mit Beispiel
+$P( 5 | 1 | 1 ), \quad g: \vec X = \begin{pmatrix}-5\\-5\\5 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix}$
+1. Hilfsebene $H$ aufstellen, Richtungsvektor ist Normalenvektor von $H$, $P$ liegt in $H$
+
+$H: 3x_1+2x_2+-4x_3=a$
+$3 \cdot 5+2 \cdot 1+-4 \cdot 1 =a = 13$
+
+$H: 3x_1+2x_2+-4x_3=13$
+
+2. Bestimme Schnitpunkt von Gerade und Ebene
+
+$3(-5 + 3r) + 2(-5 + 2r) - 4(5 - 4r) = 13 \implies r = 2$
+
+---
+Mit $r$ in $g$: $S(1|-1|-3)$
+
+3. Berechne den Abstand zwischen S und P
+
+$d(A,B) = \left| \begin{pmatrix} 5\\1\\1 \end{pmatrix} - \begin{pmatrix} 1\\-1\\-3 \end{pmatrix} \right| = 6$
+
+---
+##### Rezept Punkt - Gerade mit Hilfsebene mit Beispiel
+$P( 5 | 1 | 1 ), \quad g: \vec X = \begin{pmatrix}-5\\-5\\5 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix}$
+1. Allgemeinen Vektor $\vec{PS}$ aufstellen. Über den Punkt $S$ ist bekannt, dass er auf $g$ liegt, nutze also die Darstellung in der Geradengleichung.
+
+$\vec{PS} = \left[ \begin{pmatrix}-5\\-5\\5 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix} \right] - \begin{pmatrix} 5\\1\\1 \end{pmatrix} = \begin{pmatrix}-10\\-6\\4 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix}$
+
+---
+2. Skalarprodukt aus $\vec{PS}$ und dem Richtungsvektor von $g$ aufstellen und gleich null setzen. Der kürzeste Abestand impiziert rechten Winkel
+$\vec{PS} \circ \vec {X_g} = 0 = \left[ \begin{pmatrix}-10\\-6\\4 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix} \right] \circ \begin{pmatrix} 3\\2\\-4 \end{pmatrix} =$
+$(-30+9r)+(-12+4r)+(-16+16r) = -58+29r$
+$-58+29r = 0 \qquad | +58$
+$29r = 58 \qquad | :29 \implies r=2 \implies S(1|-1|-3)$
+
+3. Berechne den Abstand zwischen S und P
+
+$d(A,B) = \left| \begin{pmatrix} 5\\1\\1 \end{pmatrix} - \begin{pmatrix} 1\\-1\\-3 \end{pmatrix} \right| = 6$
+
+---
+##### Ebene - Ebene
+- Nur sinnvoll, wenn Ebenen parallel sind!
+- Der Abstand von zwei Ebenen ist das gleiche wie der Abstand eines beliebigen Punktes der einen Ebene zur anderen Ebene
+- Ist also nichts anderes als Punkt - Ebene
+
+##### Gerade - Ebene
+- Nur sinnvoll, wenn Gerade und Ebene parallel sind!
+- Der Abstand einer Geraden zur Ebene ist das gleiche wie der Abstand eines beliebigen Punktes auf der Geraden zur Ebene (meistens nimmt man den Aufpunkt)
+- Ist also nichts anderes als Punkt - Ebene
+
+---
+##### Parallele Geraden
+- Der Abstand zweier paralleler Geraden ist das gleiche wie der Abstand eines beliebigen Punktes auf der ersten Geraden zur anderen Geraden (meistens nimmt man den Aufpunkt)
+- Ist also nichts anderes als Punkt - Gerade
+
+---
+##### Windschiefe Geraden
+- Hilfsebene aufstellen
+- Abstand Punkte Ebene ausrechnen
+
+---
+##### Rezept Windschiefe Geraden mit Beispiel
+$g: \vec X = \begin{pmatrix}-5\\-7\\0 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\0\\1 \end{pmatrix}, \quad h: \vec X = \begin{pmatrix}12\\0\\1 \end{pmatrix} + s \cdot \begin{pmatrix} 3\\2\\2 \end{pmatrix}$
+1. Hilfsebene $H$ aus beiden Richtungsvektoren aufstellen und in Koordinatenform umwandeln
+
+$H: \vec X = \begin{pmatrix}-5\\-7\\0 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\0\\1 \end{pmatrix} + s \cdot \begin{pmatrix} 3\\2\\2 \end{pmatrix}$
+$\implies H : - 2x_1 - 3x_2 + 6x_3 = 31$
+
+2. Abstand zwischen $H$ und Aufpunkt von $h$ ausrechnen
+$d(P,H) = \frac{|-2 · 12 - 3 · 0 + 6 · 1 - 31|}{\sqrt{22 + 32 + 62}}=\frac{49}{7}= 7$
 
 ---
 ### TODO: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht |  |
-| mittel |  |
+| leicht | 146, 147, 148, 149 |
+| mittel | 150, 151 |
 | schwer |  |
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
 
 ---
-<!--header: Geometrie | TODO-->
+
+---
+
+---
+<!--header: Geometrie | Schattenpunkte und Spiegelpunkte-->
 ### Schattenpunkte
+Fall 1: Aufgabe mit einer punktförmigen Lichtquelle (Lampe).
+1. Stelle Hilfsgeraden auf, welche die Lichtquelle mit den Eckpunkte der Objekte, die Schatten werfen, verbinden.
+2. Schneide die Hilfsgeraden mit der Ebene, auf welche die Schatten fallen.
+
+Fall 2: Aufgabe mit einer weit entfernten Lichtquelle (Sonne).
+1. Stelle Hilfsgeraden auf, die durch die Eckpunkte der Objekte, die Schatten werfen, gehen und in Richtung der Sonnenstrahlen verlaufen.
+2. Schneide die Hilfsgeraden mit der Ebene, auf welche die Schatten fallen.
 
 ---
-### TODO: Rechenblock
+##### Skizze
+---
+##### Einfaches Beispiel
+Lampe $L( 1 | 2 | 4 )$, Bestimme den Schattenpunkt des Punktes $P( 2 | 0 | 2 )$ auf der $x_1x_2$- Ebene.
 
-| Schwierigkeit | Aufgaben |
-| ----------- | ----------- |
-| leicht |  |
-| mittel |  |
-| schwer |  |
+1. Hilfsgerade
 
-Für Schnelle und Unterforderte:
-- Umfangreiche Aufgaben 155ff.
+$g: \vec X = \vec L + r \cdot \vec{LP} = \begin{pmatrix}1 \\ 2 \\ 4 \end{pmatrix} + r \cdot \begin{pmatrix} 1\\-2\\-2 \end{pmatrix}$
+
+2. Schnittpunkt mit $x_3 =0$
+$4-2r = 0 \implies r = 2 \implies \vec S(3|-2|0)$
 
 ---
-<!--header: Geometrie | TODO-->
 ### Spiegelpunkte
+##### Punkt an Punkt spielgeln
+$\vec B = \vec P + 2 \vec {PS}$
+
+##### Punkt an Ebene spiegeln
+1. Hilfsgerade durch $P$ senkrecht zu $E$ (Normalenvektor als richtungsvektor)
+2. Schnittpunkt bestimmen
+3. Punkt and Punkt spiegeln
+
+---
+##### Punkt an Gerade spiegeln
+1. Hilfsebene senkrecht zu $g$ mit $P$ in ihr (Richtungsvektor als Normalenvektor)
+2. Schnittpunkt bestimmen
+3. Punkt and Punkt spiegeln
 
 ---
 ### TODO: Rechenblock
@@ -365,8 +588,12 @@ Für Schnelle und Unterforderte:
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht |  |
-| mittel |  |
-| schwer |  |
+| mittel | 153 |
+| schwer | 154 |
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
+
+---
+
+---
