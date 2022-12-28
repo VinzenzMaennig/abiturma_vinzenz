@@ -12,11 +12,17 @@
 - Moodle erstellen
 - Einstellungen überarbeiten
 - Folien hochladen
+- Abiaufgaben und erweitertes Material hochladen
 
 ## One time
-- Welche Aufgaben rechne ich live vor und welche nicht? -> Lösungsblatt schrieben
+- Welche Aufgaben rechne ich live vor und welche nicht? -> Lösungsblatt schreiben
 - Quiz erstellen
 - Analysis Part 3 vollständig und schöner machen (v.a Scharen).
 - Refresher überarbeiten, mehr aufgaben und größere varianz
 - Geometrie
 - Stochastik
+- Motivationsbeispiele Geo und stoch
+- Satz von Bayes
+- Daniel Kahnemann thinking fast and slow
+- Alte Mitschriften durchsehen
+- Vorbereitungsplan erstellen
