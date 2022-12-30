@@ -15,10 +15,6 @@ backgroundColor: white
 title: Analysis Teil 1
 description: First part of the analysis slides
 ---
-[comment]: <> (<span style="color:blue">If you need more colors</span>)
-[comment]: <> (<!--color: red-->)
-[comment]: <> (use underscore to make a command local)
-
 # Analysis Teil 1
 - Gleichungen
 - Grundlagen
@@ -138,17 +134,21 @@ $\ln{(a - b)} \neq \ln{a} - \ln{b}$
 - $\ln{\mathrm e ^x} = x$
 - $\mathrm e ^{\ln x} = x$
 
+
 ---
+##### Umformen der Basis
+- $a^x = \mathrm e ^{\ln (a)x}$
+
 ##### Beispiele
-- $x^{\frac{7}{6}} =\sqrt[6]{x^7}$
+- $x^{\frac{7}{6}} =$
 
-- $\mathrm{e}^{\frac{2}{3} x} =\mathrm{e}^{\frac{2 x}{3}}=\sqrt[3]{\mathrm{e}^{2 x}}$
+- $\mathrm{e}^{\frac{2}{3} x} =$
 
-- $\left( \frac{2}{\sqrt 3} \right)^2 =\frac{2^2}{(\sqrt 3)^2} = \frac{4}{3}$
+- $\left( \frac{2}{\sqrt 3} \right)^2 =$
 
-- $\sqrt[4]{x^2 y^4} = x^\frac{2}{4} y^\frac{4}{4} = x^\frac{1}{2} y$
+- $\sqrt[4]{x^2 y^4} =$
 
-- $\ln 50 - \ln 20 + \ln \frac{2}{5} = \ln{(\frac{50}{20} \cdot \frac{2}{5})} = \ln 1 = 0$
+- $\ln 50 - \ln 20 + \ln \frac{2}{5} =$
 
 ---
 <!--header: Analysis | Gleichungen-->

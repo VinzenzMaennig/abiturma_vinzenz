@@ -15,19 +15,12 @@
 - Abiaufgaben und erweitertes Material hochladen
 
 ## One time
-- Welche Aufgaben rechne ich live vor und welche nicht? -> Lösungsblatt schreiben
-- Quiz erstellen
+
+z prio:
+- Kugel Schnitte und Abstände
+- Refresher überarbeiten, mehr aufgaben und größere varianz (v.a in geo)
 - Analysis Part 3 vollständig und schöner machen (v.a Scharen).
-- Refresher überarbeiten, mehr aufgaben und größere varianz
-- Geometrie
-- Stochastik
-- Motivationsbeispiele Geo und stoch
-- Satz von Bayes (https://www.youtube.com/watch?v=HZGCoVF3YvM)
-- Daniel Kahnemann thinking fast and slow
-- Alte Mitschriften durchsehen
-- Vorbereitungsplan erstellen
-- Newtonverfahren einbauen
 - Abwechslung einbauen (videos?, imaginär zahlen mit e?, alles ist e?,
 taylor reihen, motivation mit matrizen, backprop in neuronalen netzen, exponentialreihe)
-
-- Kugel Schnitte und Abstände
+- Newtonverfahren einbauen
+- Hypothesentest schöner machen

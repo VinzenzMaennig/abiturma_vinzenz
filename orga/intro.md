@@ -50,7 +50,6 @@ schematischen Rezepten
 ## Wie läuft der Kurs ab?
 - Wir gehen alle Themen Stück für Stück nochmal durch und rechnen gemeinsam Aufgaben
 - Im Anschluss an die Theorie rechnet ihr selber Aufgaben und ich bespreche mit euch individuelle Fragen
-- Am Ende des Tages gibt es ein Quiz zur Selbstkontrolle
 - Jeder Morgen startet mit eine kurzen Wiederholung der letzten Tages
 - **Ganz Wichtig:** Ich bin hier um eure Fragen zu beantworten, nicht um Frontalunterricht zu machen!
 - In den letzten Tagen rechnen wir Abituraufgaben

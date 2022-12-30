@@ -131,7 +131,18 @@ Für Schnelle und Unterforderte:
 ---
 
 ---
-<!--header: Analysis | Integration: Integralfunktionen-->
+<!--header: Analysis | Integration: Rotationskörper-->
+### Rotationskörper
+Lässt man eine Funktion $f(x)$ im Bereich $[a; b]$ um die x-Achse rotieren entsteht ein Rotationskörper. Für das Volumen V des Rotationskörpers gilt:
+$V= \pi \int \limits_a^b (f(x))^2 dx$
+
+##### Rezept mit Beispiel
+$f(x) = x^2 + 1$ um die x-Achse im Intervall $[-1; 1]$
+$V = \pi \int \limits_{-1}^1 (x^2 + 1)^2 dx = \pi \int \limits_{-1}^1 (x^4+2x^2+1) dx=$
+$\pi\left[\frac{1}{5}x^5+\frac{2}{3}x^3+x \right] = \pi\left[\frac{1}{5}+\frac{2}{3}+1-\left(-\frac{1}{5}-\frac{2}{3}-1 \right) \right] = \frac{56}{15}\pi$
+
+---
+<!--header: Analysis | Integration: Integralfunktion-->
 ### Integralfunktion
 $f(x) = \int \limits_1^x g(t) dt$
 - Ein Integral mit variabler oberer oder unterer Grenze heißt Integralfunktion.
@@ -152,6 +163,7 @@ Obere Grenze ist somit $x=3$
 ![w:800](images/integralfunktionen_aufgabe.jpg)
 
 ---
+<!--header: Analysis | Integration: Uneigentliche Integrale-->
 ### Uneigentliche Integrale
 - Eine Fläche kann ins Unendliche reichen und dennoch endlichen Flächeninhalt besitzen. Das heißt dann uneigentliches Integral.
 
@@ -171,6 +183,7 @@ $= \lim \limits_{z \to \infty} -0+1 = 1$
 | mittel |  |
 | schwer | 76 |
 
+- Aufgaben vom Extrablatt zu Rotationskörpern
 - Aufgaben vom Extrablatt zu Integralfunktionen
 
 Für Schnelle und Unterforderte:

@@ -12,8 +12,8 @@ style: |
   }
 backgroundColor: white
 
-title: Test title
-description: Intro slides to my math courses used to prepare high school student for their final exams in Germany
+title: Geometrie
+description: First part of the geometry slides
 ---
 # Geometrie
 - Lineare Gleichungssysteme
@@ -69,7 +69,7 @@ $II, x_1+x_2 =2$
 ---
 
 ---
-### Gleichungen: Rechenblock
+### Lineare Gleichungssysteme: Rechenblock
 Aufgabe 99
 ![w:800](images/lin_gl_aufgabe.png)
 $I, x_1+x_2+x_3=1$
@@ -81,7 +81,16 @@ $II, x_1-x_2-2x_3=2$
 $III, 4x_1+6x_2+2x_3=0$
 
 ---
-<!--header: Geometrie | TODO-->
+Lösungen:
+- $x_1=3, x_2=-0.6, x_3=-1.4$
+- $x_1=1.6, x_2=-1.2, x_3=0.4$
+
+---
+
+---
+
+---
+<!--header: Geometrie | Vektorgrundlagen-->
 ### Vektorgrundlagen
 - Vektoren funktionieren wie Wegbeschreibungen
 - Ortsvektoren (Koordinaten), Vektor vom Ursprung zum Punkt, ein Großbuchstabe $\vec A$
@@ -125,7 +134,7 @@ $A_{Pyramide} = \frac{1}{6} |(\vec a \times \vec b) \circ \vec c|$
 $A_{Spat} = |(\vec a \times \vec b) \circ \vec c|$
 
 ---
-### TODO: Rechenblock
+### Vektorgrundlagen: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
@@ -244,7 +253,7 @@ $M(2|4|1)$ und Radius $r=6$
 $K: (x_1-2)^2+(x_2-4)^2+(x_3-1)^2 = 6^2 ) 36$
 
 ---
-### TODO: Rechenblock
+### Geraden, Ebenen und Kugeln: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
@@ -411,7 +420,7 @@ Normalenvektoren $\vec n_1$ und $\vec n_2$
 $\cos \alpha = \frac{|\vec n_1 \circ \vec n_2|}{|\vec n_1| \cdot |\vec n_2|}$
 
 ---
-### TODO: Rechenblock
+### Winkel: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
@@ -527,7 +536,7 @@ $\implies H : - 2x_1 - 3x_2 + 6x_3 = 31$
 $d(P,H) = \frac{|-2 · 12 - 3 · 0 + 6 · 1 - 31|}{\sqrt{22 + 32 + 62}}=\frac{49}{7}= 7$
 
 ---
-### TODO: Rechenblock
+### Abstände: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
@@ -583,7 +592,7 @@ $\vec B = \vec P + 2 \vec {PS}$
 3. Punkt and Punkt spiegeln
 
 ---
-### TODO: Rechenblock
+### Schattenpunkte und Spiegelpunkte: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
