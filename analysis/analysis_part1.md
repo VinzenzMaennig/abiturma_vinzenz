@@ -38,7 +38,7 @@ $(x^2-4)(x-3)=0$
 $x^4-5x^2-36=0$
 $x^4+3x^3=0$
 
-$5e^{2x^2+1}-3=3e^{2x+1}+1$
+$5e^{2x+1}-3=3e^{2x+1}+1$
 $4e^{3x} = 2e^{5x}$
 $e^{2x}+e^x=6$
 
@@ -196,7 +196,7 @@ $x^4+3x^3=0$
 ##### Exponentialgleichung Typ1: Nur eine Art Exponent
 Gleichung sortieren und Logarithmus anwenden
 
-$5e^{2x^2+1}-3=3e^{2x+1}+1$
+$5e^{2x+1}-3=3e^{2x+1}+1$
 
 ---
 <!--header: Analysis | Gleichungen-->
@@ -229,7 +229,7 @@ $\sqrt{4x+16}-x-1=0$
 ##### Logarithmusgleichung
 Sortieren, dann *e-Funktion*
 
-$\ln{x^2-8}=0$
+$\ln(x^2-8)=0$
 
 ---
 <!--header: Analysis | Gleichungen: Rechenblock 2-->
@@ -242,7 +242,7 @@ $\ln{x^2-8}=0$
 | schwer | 12,13 |
 
 Für Schnelle und Unterforderte: 
-- Kapitel 1.9 Newtonverfahren mit Aufgabe 11
+- Aufgabe 87 ff.
 
 ---
 
@@ -254,9 +254,6 @@ Für Schnelle und Unterforderte:
 Eine *Funktion* $f(x)$ beschreibt, wie man von einem Eingangswert *x* zu einem Ausgangswert *y* kommt.
 Eine *Funktion* ordnet jedem Element $x \in \mathcal{D}$ genau **ein** $y \in \mathcal{W}$ (Funktionswert) zu.
 ![w:800](images/funktion_blackbox.jpg)
-
-TODO
-- Standardfunktionen zeigen
 
 ---
 ##### Ganzrationale Funktionen
@@ -313,6 +310,8 @@ Ausnahmen:
 ##### Mengen und Mengenschreibweisen
 - Menge der reellen Zahlen: $\mathbb{R}$
 Menge der positiven reellen Zahlen mit der Null: $\mathbb{R}_0^+$
+- Menge der rationalen Zahlen: $\mathbb Q$
+Alle Zahlen, die als Bruch dargestellt werden können
 - Einzelne Zahlen mit Mengenklammern: $D_f = \{1,2,3\}$ (Hier sind nur 1,2 und 3 Teil der Definitionsmenge)
 - Einzelne Zahlen *ausschließen* mit Mengenklammern: $D_f = \mathbb{R} \setminus \{1,2,3\}$ (Hier sind nur 1,2 und 3 *nicht* Teil der Definitionsmenge)
 - Größere Mengen mit Mengenklammern: $D_f = \{x| -4<x<-2 \cup 2<x<4\}$ ("Alles zwischen -4 und -2 sowie zwischen 2 und 4")
@@ -366,7 +365,6 @@ $h(x)=\ln{(x-3)}$
 | schwer | 18 |
 
 Für Schnelle und Unterforderte: 
-- Kapitel 1.9 Newtonverfahren mit Aufgabe 11
 - Aufgabe 87 ff.
 
 ---
@@ -401,7 +399,7 @@ $m = f^\prime (x)$
 Kettenregel: $u(v(x)) \implies u^\prime (v(x)) \cdot v^\prime (x)$
 Produktregel: $u(x) \cdot v(x) = u(x) \cdot v^\prime (x) + u^\prime (x) \cdot v(x)$
 
-##### Wurzeln <-> Potenzen
+##### Wurzeln <-> Potenzen (Nur bei Ableitungen und Integration sinnvoll!)
 - $\sqrt x = \sqrt[2] x = x^{\frac{1}{2}}$
 - $\frac{1}{x} = x^{-1}$
 - $\frac{1}{\sqrt x} = x^{-\frac{1}{2}}$
@@ -436,11 +434,10 @@ $l(x) = \frac{x^2+x}{ln x}$
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht | 19, 22, 23, 24 |
-| mittel | 25, 26, 27, 28, 29, 20, 31, 32 |
+| mittel | 25, 26, 27, 28, 29, 30, 31, 32 |
 | schwer | 20, 21, 33, 34 |
 
 Für Schnelle und Unterforderte: 
-- Kapitel 1.9 Newtonverfahren mit Aufgabe 11
 - Aufgabe 87 ff.
 
 ---
@@ -514,7 +511,7 @@ $f^\prime(x) = 3x^2$
 2. Gewünschten Punkt in Ableitung einsetzen
 $m_t = f^\prime(-1) = 3(-1)^2 = 3$
 3. Steigung der Normalen bestimmen
-$m_n ) -\frac{1}{m_t} = -\frac{1}{3}$
+$m_n = -\frac{1}{m_t} = -\frac{1}{3}$
 4. Alles in die Geradengeleichung einsetzen und c ausrechnen
 $y = mx+c \implies -3 =  -\frac{1}{3} \cdot (-1) + c \implies c = -\frac{10}{3}$
 5. Normalengleichung angeben
@@ -575,12 +572,12 @@ In die Vorzeichentabelle eintragen
 
 3. Funktionswerte ausrechnen!
 $f(2) = 32 \implies HP(2|32)$
-$f(6) = 0 \implies HP(2|0)$
+$f(6) = 0 \implies TP(6|0)$
 
 4. Evtl. Monotonie angeben
 $f(x)$ monoton steigend für $I = ]-\infty, 2]$
 $f(x)$ monoton fallend für $I = [2,6]$
-$f(x)$ monoton steigend für $I = [6,\infty]$
+$f(x)$ monoton steigend für $I = [6,\infty[$
 
 ---
 ##### Methode mit der zweiten Ableitung
@@ -607,7 +604,7 @@ $f(x) = x^4$
 $f(x) = x^3-12x^2+36x$
 1. Zweimal ableiten und gleich null setzen $f^{\prime \prime} (x) = 0$
 $f^\prime (x) = 3x^2 - 24x + 36$
-$f^\prime (x) = 6x - 24 = 0 \implies x = 4$
+$f^{\prime \prime} (x) = 6x - 24 = 0 \implies x = 4$
 2. Vorzeichentabelle (diesmal mit zweiter Ableitung)
 Hierbei geht es v.a darum, dass ein Vorzeichenwechsel statt findet und es tatsächlich eine Wendestelle ist.
 
@@ -624,8 +621,8 @@ Hierbei geht es v.a darum, dass ein Vorzeichenwechsel statt findet und es tatsä
 $f(4) = 16 \implies WP(4|16)$
 
 4. Evtl. Krümmung angeben
-$- \implies +$: Wechsel von Links- auf Rechtskrümmung
-$+ \implies -$: Wechsel von Rechts- auf Linkskrümmung
+$+ \implies -$: Wechsel von Links- auf Rechtskrümmung
+$- \implies +$: Wechsel von Rechts- auf Linkskrümmung
 
 ---
 <!--header: Analysis | Kurvendiskussion: Rechenblock 4-->
@@ -635,7 +632,7 @@ $+ \implies -$: Wechsel von Rechts- auf Linkskrümmung
 | ----------- | ----------- |
 | leicht | 43, 50, 52 |
 | mittel | 44, 47, 48, 49, 53 |
-| schwer | 45, 46, 51 |
+| schwer | 46, 51 |
 
 Für Schnelle und Unterforderte: 
 - Aufgabe 87 ff.
@@ -714,7 +711,7 @@ Aber: $x=1$ ist eine einfache Polstelle und $x=-2$ ist keine Polstelle, sondern 
 3. Grenzwertbetrachtung durchführen
 
 ---
-##### Waagrechte/Senkrechte Asymptoten
+##### Waagrechte/Schräge Asymptoten
 Zählergrad (ZG) ist der höchste Exponent des Zählers, Nennergrad (NG) der höchste Exponent des Nenners (natürlich in vorständig ausmultiplizierter Form!)
 
 - Fall 1: ZG < NG
@@ -768,13 +765,13 @@ Für Schnelle und Unterforderte:
 
 ##### Rezept
 1. $(-x)$ in die Funktion einsetzten
-2. Versuche. ob durch Umformung/Vereinfachung entweder wieder $f(x)$ oder $f(-x)$ erreicht werden kann.
+2. Versuche. ob durch Umformung/Vereinfachung entweder wieder $f(x)$ oder $-f(x)$ erreicht werden kann.
 3. Wenn keines davon oder eine Mischvor vorliegt, gibt es keine Symmetrie
 
 ---
 ##### Polynome
 - Wenn alle Exponenten in einem Polynome gerade sind (z.B $f(x) = x^6 +3x^4 -2x^2 + 4$), liegt Achsensymmetrie vor
-- Wenn alle Exponenten in einem Polynome ungerade sind (z.B $f(x) = x^7 +3x^5 -2x$), liegt Achsensymmetrie vor. Zusätzlich darf hier keine Verschiebung an der y-Achse vorliegen, sonst geht die Funktion schließlich nicht mehr durch den Ursprung
+- Wenn alle Exponenten in einem Polynome ungerade sind (z.B $f(x) = x^7 +3x^5 -2x$), liegt Punktsymmetrie vor. Zusätzlich darf hier keine Verschiebung an der y-Achse vorliegen, sonst geht die Funktion schließlich nicht mehr durch den Ursprung
 
 ---
 ##### Beispiel
@@ -785,7 +782,7 @@ $$\begin{aligned}
 f(-x) & = (-x)^3 + 12(-x)^2 + 36(-x) = \\
 & = -x^3 + 12x^2 - 36x
 \end{aligned}$$
-3. Ist weder $f(x)$ oder $f(-x)$
+3. Ist weder $f(x)$ oder $-f(x)$
 
 ---
 <!--header: Analysis | Kurvendiskussion: Funktionen manipulieren-->
@@ -856,8 +853,8 @@ Beispiel: Falls $f$ an der Stelle $x=0$ eine Wendestelle (W) besitzt, so besitzt
 Zusatzinformationen beim Ableiten
 - Extrempunkte $\implies$ Nullstellen mit VZW
 - Sattelpunkte $\implies$ Nullstellen ohne VZW
-- In allen Abschnitten, in denen der Graph von $f$ steigt, verläuft der Graph von $\implies$ Schnittpunkte mit VZW oberhalb der x-Achse.
-- In allen Abschnitten, in denen der Graph von $f$ fällt, verläuft der Graph von $\implies$ Schnittpunkte mit VZW unterhalb der x-Achse.
+- In allen Abschnitten, in denen der Graph von $f$ steigt, verläuft der Graph von $f^\prime (x)$ oberhalb der x-Achse.
+- In allen Abschnitten, in denen der Graph von $f$ fällt, verläuft der Graph von $f^\prime (x)$ unterhalb der x-Achse.
 
 ---
 Beispiel

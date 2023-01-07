@@ -40,7 +40,7 @@ $I: x_1+x_2 =0 \qquad | -x_2$
 $x_1 = -x_2$
 in $II: -x_2-x_2 = 2$
 $-2x_2 = 2 \qquad |:(-2)$
-$x_2 = -1 \implies x_2 = -1$
+$x_2 = -1 \implies x_1 = 1$
 
 ---
 $I, x_1+x_2 =0$
@@ -95,14 +95,18 @@ Lösungen:
 - Vektoren funktionieren wie Wegbeschreibungen
 - Ortsvektoren (Koordinaten), Vektor vom Ursprung zum Punkt, ein Großbuchstabe $\vec A$
 - Alle anderen Vektoren mit zwei Großbuchstaben $\vec {AB}$ oder einem Kleinbuchstaben $\vec a$
+- Vektoren haben eine Länge, eine Orientierung und eine Richtung
 
 ---
 - Kolinearität: Ein Vektor ist das Vielfache eines Anderen
 $\vec a = \begin{pmatrix}7 \\ 3 \\ -1\end{pmatrix}, \quad \vec b = \begin{pmatrix}-21 \\ -9 \\ 3\end{pmatrix}$
-- Betrag: $\vec a = \begin{pmatrix}a_1 \\ a_2 \\ a_3\end{pmatrix} \implies |\vec a| = \sqrt{a_1^1+a_2^2+a_3^2}$ (Länge des Vektors)
+- Betrag: $\vec a = \begin{pmatrix}a_1 \\ a_2 \\ a_3\end{pmatrix} \implies |\vec a| = \sqrt{a_1^2+a_2^2+a_3^2}$ (Länge des Vektors)
 - Normierter Vektor (Vektor mit der Länge 1): $\vec{a_0} = \frac{\vec a}{|\vec a|}$
+- Einheitsvektoren
+$\vec e_1 = \begin{pmatrix}1 \\ 0 \\ 0\end{pmatrix}, \quad \vec e_2 = \begin{pmatrix}0 \\ 1 \\ 0\end{pmatrix}, \quad \vec e_3 = \begin{pmatrix}0 \\ 0 \\ 1\end{pmatrix}$
 
 ---
+- Mittelpunkt zwischen $\vec A$ und $\vec B$: $\vec M = \frac{1}{2} (\vec{B} - \vec A)$
 - Lineare Abhängigkeit: 
 "Kann man einen Vektor durch andere Vektoren ausdrücken? Kann ich das Ziel auf mit anderen gestückelten Teilwegbeschreibungen erreichen?"
 
@@ -121,7 +125,7 @@ $\cos \alpha = \frac{\vec a \circ \vec b}{|\vec a| \cdot |\vec b|}$
 ---
 - Kreuzprodukt:
 $\begin{pmatrix}a_1 \\ a_2 \\ a_3 \end{pmatrix} \times \begin{pmatrix}b_1 \\ b_2 \\ b_3 \end{pmatrix} = \begin{pmatrix} a_2b_3 - a_3b_2 \\ a_3b_1 - a_1b_3 \\a_1b_2 - a_2b_1 \end{pmatrix}$
-$\vec c = \vec a \times \vec b = 0 \Leftrightarrow \vec a \perp \vec c, \vec b \perp \vec c$
+$\vec c = \vec a \times \vec b \Leftrightarrow \vec a \perp \vec c, \vec b \perp \vec c$
 $\sin \alpha = \frac{|\vec a \times \vec b|}{|\vec a| \cdot |\vec b|}$
 
 $\begin{pmatrix}-2 \\ 3 \\ 1 \end{pmatrix} \times \begin{pmatrix}10 \\ 2 \\ -1 \end{pmatrix}$
@@ -130,8 +134,8 @@ $\begin{pmatrix}-2 \\ 3 \\ 1 \end{pmatrix} \times \begin{pmatrix}10 \\ 2 \\ -1 \
 - Volumina:
 $A_\triangle = \frac{1}{2} |\vec a \times \vec b|$
 $A_\square = |\vec a \times \vec b|$
-$A_{Pyramide} = \frac{1}{6} |(\vec a \times \vec b) \circ \vec c|$
-$A_{Spat} = |(\vec a \times \vec b) \circ \vec c|$
+$V_{Pyramide} = \frac{1}{6} |(\vec a \times \vec b) \circ \vec c|$
+$V_{Spat} = |(\vec a \times \vec b) \circ \vec c|$
 
 ---
 ### Vektorgrundlagen: Rechenblock
@@ -175,9 +179,9 @@ Entscheide, ob $A(9|7|20)$ auf der Gerade liegt.
 1. Ersetze $\vec X$ durch den Punkt
 $\begin{pmatrix}9\\7\\20 \end{pmatrix} = \begin{pmatrix}3\\7\\1 \end{pmatrix} + r \cdot \begin{pmatrix}2\\0\\17 \end{pmatrix}$
 2. LGS aufstellen und lösen
-$3+2p=9 \implies p =2$
+$3+2r=9 \implies r =3$
 $7 = 7$
-$1+17p=20 \implies P = \frac{19}{17} \implies$ Keine Lösung, A nicht auf g
+$1+17r=20 \implies r = \frac{19}{17} \implies$ Keine Lösung, A nicht auf g
 ---
 ##### Ebenengleichung in Parameterform
 $g: \vec X = \vec A + r \cdot \vec u + s \cdot \vec v$
@@ -244,13 +248,13 @@ Eine Kugel mit Mittelpunkt $M$ und Radius $r$ ist die Menge aller Punkte, die vo
 
 ---
 ##### Koordinatengleichung
-$K: (x_1-m1)^2+(x_2-m2)^2+(x_3-m3)^2 = r^2$
+$K: (x_1-m_1)^2+(x_2-m_2)^2+(x_3-m_3)^2 = r^2$
 mit Mittelpunkt $M(m_1|m_2|m_3)$ und Radius $r$
 
 ##### Rezept Kugelgleichung aufstellen
 1. Für Kugelgleichung einfach $M$ und $r$ in die Formel einsetzen
 $M(2|4|1)$ und Radius $r=6$
-$K: (x_1-2)^2+(x_2-4)^2+(x_3-1)^2 = 6^2 ) 36$
+$K: (x_1-2)^2+(x_2-4)^2+(x_3-1)^2 = 6^2 = 36$
 
 ---
 ### Geraden, Ebenen und Kugeln: Rechenblock
@@ -357,7 +361,7 @@ $\vec X = \begin{pmatrix}x_1\\x_2\\x_3 \end{pmatrix} = \begin{pmatrix}- \frac{7}
 ##### Rezept mit Beispiel
 
 $\vec X = \begin{pmatrix}0\\1\\0 \end{pmatrix} + r \cdot \begin{pmatrix} 0\\-1\\2 \end{pmatrix}$
-$E: x_1+3x_3-2x_2 = 10$
+$E: x_1+3x_2-2x_3 = 10$
 
 1. Sind Gerade und Ebene parallel?
 

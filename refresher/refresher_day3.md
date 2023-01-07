@@ -34,7 +34,7 @@ $f(x) = \sin(x) (x^2-1), \quad g(x) = \cos(\mathrm e^{x^3+x^2}), \quad h(x)= \fr
 $f(x) = x^3-2x+2, P(1|1), \quad g(x) = x^4-4x^2, m=0$
 
 ##### Integrale
-$\int \frac{1}{2\sqrt{x-7}}dx, \quad \int \frac{3x^2-7}{x^3-7x+3}dx, \quad \int \frac{1}{\ln x \cdot x}dx, \quad \int \tan x dx$
+$\int \frac{1}{2\sqrt{x-7}}dx, \quad \int \frac{3x^2-7}{x^3-7x+3}dx, \quad \int \frac{1}{\ln (x) \cdot x}dx, \quad \int \tan x dx$
 
 ##### Fläche zwischen $f(x) = x^3-5x$ und $g(x) = -x$
 
@@ -54,7 +54,7 @@ $g(x) = x^4-4x^2, m=0 \implies y_1 = 0, y_2 = -4$
 ---
 $\int \frac{1}{2\sqrt{x-7}}dx = (x-7)^\frac{1}{2}+C$
 $\int \frac{3x^2-7}{x^3-7x+3}dx = \ln(x^3-7x+3)+C$
-$\int \frac{1}{\ln x \cdot x}dx = \ln(\ln x)+C$
+$\int \frac{1}{\ln (x) \cdot x}dx = \ln(\ln x)+C$
 $\int \tan x dx = -\ln(\cos x)+C$
 
 Fläche zwischen $f(x) = x^3-5x$ und $g(x) = -x$: $A = 8$

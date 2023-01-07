@@ -27,7 +27,7 @@ Vinzenz Männig
 - Mathe ist wie Memorie spielen, man muss Situationen erkennen und zu schon gesehenen Aufgaben zuordnen
 - Wichtig ist Konstanz in der Vorbereitung, drei Tage vor dem Abitur anfangen ist zu spät.
 - Rechtzeitig mit den umfangreichen Aufgaben im Abiturma Buch anfangen
-- In der Wocher vor dem Matheabi jeden Tag ein Altabitur rechnen
+- In der Woche vor dem Matheabi jeden Tag ein Altabitur rechnen
 
 ---
 <!--header: Vorbereitungplan | Tools-->
@@ -35,6 +35,7 @@ Quizzes:
 https://www.schlaukopf.de/gymnasium/oberstufe/mathematik/
 https://www.mathness.de/quiz/
 https://lakschool.com/de/quizrunde/wiki_list/2
+https://mathefrosch.com/frosch-kahoots/
 
 Lösungen und Visualisierung:
 https://www.wolframalpha.com/

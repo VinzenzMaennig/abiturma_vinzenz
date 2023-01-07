@@ -42,45 +42,60 @@ Aufgabe 77, 78
 
 ---
 ### Steckbriefaufgaben
-- Allgemeinen Funktionsterm der gesuchten Funktionsart aufstellen 𝑓(𝑥) = 𝑎𝑥𝑛 + 𝑏𝑥𝑛−1 + ⋯
-- Informationen aus dem Aufgabentext in Gleichungen übersetzen und damit
+1. Allgemeinen Funktionsterm der gesuchten Funktionsart aufstellen und Ableitungen bilden
+2. Informationen aus dem Aufgabentext in Gleichungen übersetzen und damit
 ein Gleichungssystem aufstellen
-- Gleichungssystem lösen
-
-Gleichung
-„enthält den Punkt P( a | b)“ f(a) = b
-„hat bei x = a eine einfache NST“ f(a) = 0
-„hat bei x = a eine doppelte NST“ f(a) = 0 UND f‘(a) = 0
-„hat bei P( a | b) einen Extrempunkt“ f(a) = b UND f‘(a) = 0
-„hat an der Stelle x = a die Steigung m“ f‘(a) = m
+3. Gleichungssystem lösen
 
 ---
-Bei ganzrationalen Funktionen mit bekannten Nullstellen 𝑥1 = 𝑗, 𝑥2 = 𝑘, …
-besitzt der Funktionsterm die Form
-𝑓(𝑥) = 𝑎 ⋅ (𝑥 − 𝑗)(𝑥 − 𝑘) ⋅ …
-TODO
+##### Beispiel
+Bestimme den Term einer ganzrationalen Funktion 3. Grades, deren Graph Gf am Ursprung einen Extrempunkt und einen Wendepunkt in $W( 1 | 1 )$ hat.
+1. $f(x) = ax^3 + bx^2 + cx + d$
+&nbsp;
+&nbsp;
+&nbsp;
+
+2. $G_f$ geht durch Ursprung
+$G_f$ hat Extrempunkt am Ursprung
+$G_f$ hat Wendepunkt in $W( 1 | 1 )$
+$G_f$ geht durch Punkt $W( 1 | 1 )$
+
+---
+$G_f$ geht durch Ursprung $\implies f(0) = 0$
+$G_f$ hat Extrempunkt am Ursprung $\implies f^\prime(0) = 0$
+$G_f$ hat Wendepunkt in $W( 1 | 1 )$ $\implies f^{\prime \prime}(1) = 0$
+$G_f$ geht durch Punkt $W( 1 | 1 )$ $\implies f(1) = 1$
+
+3. 
+
+---
+##### Beispielhaft Informationen
+- "enthält den Punkt $P(a|b)$": $f(a) = b$
+- "hat bei $x = a$ eine einfache NST": $f(a) = 0$
+- "hat bei $x = a$ eine doppelte NST": $f(a) = 0$ und $^\prime(a) = 0$
+- "hat bei $P( a | b)$ einen Extrempunkt": $f(a) = b$ und $f^\prime(a) = 0$
+- "hat an der Stelle $x = a$ die Steigung m": $f^\prime(a) = m$
+
+---
+Aufgabe 80, 81
 
 ---
 ### Funktionsscharen
-TODO
+Was ist eine Schar?
+
+---
+##### Extrempunkte einer Schar
+$f_t (x) = x^2 + 2tx + 2x + 1, \quad t ≥ 0.$
+
+---
+##### Gemeinsame Schnittpunkte
+$f_t (x) = x^2 + tx + 1 - t$
+
+---
+Aufgaben 82, 83, 84
 
 ---
 ### Wachstumsaufgaben
 TODO
-
----
-### Integration: Rechenblock 1
-
-| Schwierigkeit | Aufgaben |
-| ----------- | ----------- |
-| leicht | 64, 66 |
-| mittel | 63, 67, 68 |
-| schwer | 65 |
-
-TODO
-
-Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
-![h:200](images/aufgaben_logarithmische_substitution.jpg)
 
 ---

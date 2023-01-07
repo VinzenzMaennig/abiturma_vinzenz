@@ -58,7 +58,7 @@ $f(x) = \mathrm e ^{-3x+2}$
 $g(x) = \sqrt{4x-3}$
 
 ---
-##### Brüche
+##### Logarithmische Substitution
 $f(x) = a \cdot \frac{g^\prime(x)}{g(x)} \quad \implies \quad F(x) = a \cdot \ln(g(x))$
 
 $f(x) = \frac{4x-3}{2x^2-3x+1}$
@@ -66,7 +66,7 @@ $f(x) = \frac{4x-3}{2x^2-3x+1}$
 &nbsp;
 &nbsp;
 &nbsp;
-$g(x)= \frac{4 \mathrm e^{2x}+6}{\mathrm e^{2x}3+x-1}$
+$g(x)= \frac{4 \mathrm e^{2x}+6}{\mathrm e^{2x}+3x-1}$
 
 ---
 ### Integration: Rechenblock 1
@@ -96,9 +96,9 @@ drückt den Flächeninhalt zwischen Graphen und x-Achse aus. Positive Flächen s
 
 ---
 ##### Rezept mit Beispiel
-$f(x) = \frac{1}{2}x^2+2$
+$f(x) = \frac{1}{2}x^2-2$
 1. Nullstellen berechnen
-$f(x) = \frac{1}{2}x^2+2 = 0 \implies x_1 = -2, x_2 = 2$
+$f(x) = \frac{1}{2}x^2-2 = 0 \implies x_1 = -2, x_2 = 2$
 2. Einzeln von Nullstelle zu Nullstelle integrieren
 
 ---
@@ -116,21 +116,6 @@ $-x^2+4x = x^2-2x \implies x_1 = 0, x_2 = 3$
 2. Einzeln von Schnittpunkt zu Schnittpunkt integrieren
 
 ---
-### Integration: Rechenblock 2
-
-| Schwierigkeit | Aufgaben |
-| ----------- | ----------- |
-| leicht | 70 |
-| mittel | 71, 74, 75 |
-| schwer | 72 |
-
-Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
----
-
----
-
----
 <!--header: Analysis | Integration: Rotationskörper-->
 ### Rotationskörper
 Lässt man eine Funktion $f(x)$ im Bereich $[a; b]$ um die x-Achse rotieren entsteht ein Rotationskörper. Für das Volumen V des Rotationskörpers gilt:
@@ -139,7 +124,23 @@ $V= \pi \int \limits_a^b (f(x))^2 dx$
 ##### Rezept mit Beispiel
 $f(x) = x^2 + 1$ um die x-Achse im Intervall $[-1; 1]$
 $V = \pi \int \limits_{-1}^1 (x^2 + 1)^2 dx = \pi \int \limits_{-1}^1 (x^4+2x^2+1) dx=$
-$\pi\left[\frac{1}{5}x^5+\frac{2}{3}x^3+x \right] = \pi\left[\frac{1}{5}+\frac{2}{3}+1-\left(-\frac{1}{5}-\frac{2}{3}-1 \right) \right] = \frac{56}{15}\pi$
+$\pi\left[\frac{1}{5}x^5+\frac{2}{3}x^3+x \right]_{-1}^1 = \pi\left(\frac{1}{5}+\frac{2}{3}+1-\left(-\frac{1}{5}-\frac{2}{3}-1 \right) \right) = \frac{56}{15}\pi$
+
+---
+### Integration: Rechenblock 2
+
+| Schwierigkeit | Aufgaben |
+| ----------- | ----------- |
+| leicht | 70 |
+| mittel | 71a, 74, 75 |
+| schwer | 72 |
+
+Für Schnelle und Unterforderte:
+- Aufgabe 87 ff.
+- Aufgaben vom Extrablatt zu Rotationskörpern
+---
+
+---
 
 ---
 <!--header: Analysis | Integration: Integralfunktion-->
@@ -183,7 +184,6 @@ $= \lim \limits_{z \to \infty} -0+1 = 1$
 | mittel |  |
 | schwer | 76 |
 
-- Aufgaben vom Extrablatt zu Rotationskörpern
 - Aufgaben vom Extrablatt zu Integralfunktionen
 
 Für Schnelle und Unterforderte:
@@ -196,7 +196,7 @@ Für Schnelle und Unterforderte:
 <!--header: Analysis | Umkehrfunktionen-->
 ### Umkehrfunktionen
 
-##### Definitions- und Wertmenge
+##### Definitions- und Wertemenge
 
 - Die Wertemenge $\mathcal W$ ist die Menge aller Zahlen, die aus einer Funktion rauskommen können
 - Die Wertemenge wird begrenzt durch das Verhalten im Unendlichen und Extrempunkte
@@ -210,18 +210,19 @@ $f(x) = -x^2+4$
 $\lim \limits_{x \to \pm \infty} f(x) = -\infty$
 $f^\prime(x) = -2x \implies HP(0|4)$
 2. Alle dazwischen befindlichen Werte angeben
-$\mathcal W_f = ]\infty, 4]$
+$\mathcal W_f = ]-\infty, 4]$
 
 ---
 ##### Was ist eine Umkehrfunktion?
+- Im Koordinatensystem sind die Graphen an der 45° Grad Linie gespiegelt
+$f(x) = \ln x, \quad g(x) = \mathrm e^x$
+
+---
 - $g(x)$ ist Umkehrfunktion vom $f(x)$ wenn $g(f(x)) = x$ und $f(g(x)) = x$ gilt (heben sich auf)
 - Für Werte- und Definitionsmengen gilt: $\mathcal D_f = \mathcal W_g$ und $\mathcal W_f = \mathcal D_g$, sie werden also getauscht
 - Somit kann man die Wertemenge einer Funktion auf durch die Definitionsmenge der Umkehrfunktion bestimmen (ist aber sehr umständlich)
 - Funktionen sind nur auf Intervallen umkehrbar, in denen sie entweder nur streng monoton fallend oder nur streng monoton steigend sind! Denn: Jedem y-Wert muss hierbei genau ein x-Wert zugeordnet werden, somit können Funktionen, die für einen y-Wert mehrere x-Werte haben nicht umgekehrt werden!
 
----
-- Im Koordinatensystem sind die Graphen an der 45° Grad Linie gespiegelt
-$f(x) = \ln x, \quad g(x) = \mathrm e^x$
 
 ---
 ##### Rezept mit Beispiel: Umkehren
@@ -238,8 +239,8 @@ $(\frac{x-4}{2})^2 = y-1 \qquad |+1$
 $y = (\frac{x-4}{2})^2 +1$
 
 ---
-4. y durch $f^{-1}$ ersetzen
-$f^{-1} = (\frac{x-4}{2})^2 +1$
+4. y durch $f^{-1}(x)$ ersetzen
+$f^{-1}(x) = (\frac{x-4}{2})^2 +1$
 5. Neuen Definitionsbereich überprüfen
 Ausmultiplizieren: $f^{-1} = \frac{1}{4}x^2-2x+5$
 Keine Ausnahmen $\implies \mathcal D = \mathbb R$
@@ -254,11 +255,16 @@ Keine Ausnahmen $\implies \mathcal D = \mathbb R$
 | schwer |  |
 
 Für Schnelle und Unterforderte:
-- Vorherige Aufgaben
-- Kapitel 17.2 mit Aufgabe 73
-- Kapitel 18.1 mit Aufgabe 76
+- Wertemengen von: $f(x) = \mathrm e^x +4, \quad g(x)= 3x^2-2$
+$h(x) = \sqrt{x-4}-1, \quad i(x)= \frac{1}{x}, \quad j(x)=\frac{1}{(x-2)^2}$
 - Aufgabe 87 ff.
 ---
+Lösungen der Wertemengen:
+$f(x) = \mathrm e^x +4 \implies \mathcal W=]4,+\infty[$
+$g(x)= 3x^2-2 \implies \mathcal W=[-2],+\infty[$
+$h(x) = \sqrt{x-4}-1 \implies \mathcal W=[-1],+\infty[$
+$i(x)= \frac{1}{x} \implies \mathcal W=\mathbb R \setminus\{0\}$
+$j(x)=\frac{1}{(x-2)^2} \implies \mathcal W=\mathbb R^+$
 
 ---
 

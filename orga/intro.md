@@ -78,4 +78,6 @@ schematischen Rezepten
 ## Organisatorisches
 - Vormittags 0830 bis 1300, Pausen um 1000 und 1130
 - Nachmittag 1400 bis 1830, Pausen um 1530 und 1700
-- Slack für Mitschriften und Kommunikation oder auch wenn ihr zu spät kommt
+- Für Materialien: abiturma.vinzenz-maennig.de
+- Handy: 0176/78118722
+- Mail: abiturma@vinzenz-maennig.de
