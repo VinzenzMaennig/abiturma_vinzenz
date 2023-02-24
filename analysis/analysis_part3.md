@@ -23,7 +23,7 @@ description: Third part of the analysis slides, advanced topics
 
 ---
 <!--header: Analysis | Extremwertaufgaben-->
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
 ### Extremwertaufgaben
 ##### Rezept
 1) Skizze anfertigen, falls nicht in der Aufgabenstellung vorhanden

@@ -24,26 +24,18 @@ description: Intro slides to my abiturma course
 
 # Herzlich Willkommen!
 Abiturma Abivorbereitungskurs
-Winter 2023 München
+Fasching 2023 München
 Vinzenz Männig
 
 ---
 <!--header: Intro | Who am I?-->
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
 
 ## Who am I?
-- Student aus München
-- Aktuell: Masterarbeit in der Robotic und KI
+- Student aus München (Master Robotik, Bildverarbeitung und KI)
+- Aktuell: Masterarbeit Reinforcement Learning for Modular Robotics
 - Ansonsten: Softwareentwicklung und Abiturma
 - Hobby: Handball
-
----
-<!--header: Intro | Warum bin ich hier?-->
-## Warum bin ich hier?
-- Mathe ist wie Kochen: Rezept + Übung
-- Jeder kann Mathe (lernen) und Spaß daran haben (oder es muss zmd. nicht frustrierend sein)
-- Fokus auf Skizzen und Vorstellungskraft sowie einfachen,
-schematischen Rezepten
 
 ---
 <!--header: Intro | Wie läuft der Kurs ab?-->
@@ -51,9 +43,9 @@ schematischen Rezepten
 - Wir gehen alle Themen Stück für Stück nochmal durch und rechnen gemeinsam Aufgaben
 - Im Anschluss an die Theorie rechnet ihr selber Aufgaben und ich bespreche mit euch individuelle Fragen
 - Jeder Morgen startet mit eine kurzen Wiederholung der letzten Tages
+- Fokus auf Skizzen und Vorstellungskraft sowie einfachen, schematischen Rezepten
 - **Ganz Wichtig:** Ich bin hier um eure Fragen zu beantworten, nicht um Frontalunterricht zu machen!
-- In den letzten Tagen rechnen wir Abituraufgaben
-- Am Ende gibt es eine Art Lernplan
+- In den letzten Tagen rechnen wir je nach Fortschritt Abituraufgaben
 
 ---
 <!--header: Intro | Aber!-->
@@ -62,7 +54,7 @@ schematischen Rezepten
 - Ich versuche euch alle Hilfen zu geben, die ihr benötigt
 - Nutzt das Buch
 - Wenn ihr etwas nicht auf anhieb versteht / lösen könnt, nicht sofort in die Lösungen schauen! Lieber etwas länger darüber nachdenken und mich dann fragen!
-- Mathe ist leider viel Übung und braucht Zeit
+- Mathe ist leider viel Übung und braucht Zeit (Rezept + Übung)
 
 ---
 <!--header: Intro | Who are you?-->
@@ -81,3 +73,13 @@ schematischen Rezepten
 - Für Materialien: abiturma.vinzenz-maennig.de
 - Handy: 0176/78118722
 - Mail: abiturma@vinzenz-maennig.de
+
+---
+<!--header: Intro | Kursort-->
+## Kursort
+- WLAN-Passwort: 123heimerer!WLAN
+- Gemeinsame Whatsapp-Gruppe (nicht so wichtig wie Webseite)
+- Es gibt eine Dachterrasse im 5.OG (Eingang links)
+- Rauchen ist auf der Dachterrasse nicht erlaubt, nur unter vor dem Eingang.
+- Bistro im EG, Bistro im 5.OG darf nicht verwendet werden.
+- Wer glaubt, sich in 15min Pause schnell einen Cafe beim Starbucks am HBF zu holen: Das schafft ihr nicht.

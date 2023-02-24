@@ -24,7 +24,7 @@ description: Second part of the analysis slides
 
 ---
 <!--header: Analysis | Integration-->
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
 ### Integration
 - Eine Funktion $F$ ist eine Stammfunktion einer Funktion $f$, wenn gilt: $F^\prime(x) = f(x)$
 - Eine Stammfunktion ist bis auf eine Konstante *C* eindeutig (diese fällt beim Ableiten weg)
@@ -35,7 +35,7 @@ $\int f(x) dx = F(x) + C$
 - Vor dem Integrieren ausmultiplizieren! Produkte können nicht integriert werden
 
 ---
-##### Intergrationsregeln
+##### Integrationsregeln
 | $f(x)$ | $x^n, n \neq -1$ | $\mathrm e ^x$ | $\sin x$ | $\cos x$ | $\frac{1}{x} = x^{-1}$ |
 | --- | --- | --- | --- | --- | --- |
 | $F(x)$ | $\frac{1}{n+1}x^{n+1}$ | $\mathrm e ^x$ | $-\cos x$ | $\sin x$ | $ln \|x\|$ |

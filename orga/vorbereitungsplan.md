@@ -16,12 +16,12 @@ description: Intro slides to my abiturma course
 ---
 # Vorbereitungplan
 Abiturma Abivorbereitungskurs
-Winter 2023 München
+Fasching 2023 München
 Vinzenz Männig
 
 ---
 <!--header: Vorbereitungplan | Allgemeines-->
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
 ### Allgemeines
 - Die Rezepte sind jetzt da, jetzt muss viel geübt werden!
 - Mathe ist wie Memorie spielen, man muss Situationen erkennen und zu schon gesehenen Aufgaben zuordnen

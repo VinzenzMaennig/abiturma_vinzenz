@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-x = np.arange(-2,6,0.1)   # start,stop,step
-y1 = 0.5*(x-2)**2-2
+x = np.arange(-1.5,2.2,0.05)   # start,stop,step
+y1 = (x+1)**3 * (x-1)**2 * (x-2)
 
 plt.plot(x,y1, c="black", linewidth=3.0)
 

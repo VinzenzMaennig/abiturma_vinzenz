@@ -25,7 +25,7 @@ description: Stochastic slides
 - Hypothesentests
 
 ---
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
 <!--header: Grundlagen-->
 ### Grundlagen
 - Ergebnis: Ausgangsmöglichkeit eines Zufallsexperiments
@@ -346,12 +346,14 @@ $F(5;0.4;k\leq 2) = B(5;0.4;0)+B(5;0.4;1)+B(5;0.4;2)$
 
 ---
 ##### Fall 2: Mindestens
-Kumuliert funktioniert nur mit *mindestens*. Höchstens muss mit dem Gegenereignis in mindestens umgeformt werden.
+Kumuliert funktioniert nur mit *höchstens*. *Mindestens* muss mit dem Gegenereignis in *höchstens* umgeformt werden.
 
-Eine Münze wird 5 Mal geworfen. Wie hoch ist die Wahrscheinlichkeit, dass *höchstens* 2 Mal Kopf fällt? Die Wahrscheinlichkeit für Kopf ist $P(K) = 0.4$
+Eine Münze wird 5 Mal geworfen. Wie hoch ist die Wahrscheinlichkeit, dass *mindestens* 2 Mal Kopf fällt? Die Wahrscheinlichkeit für Kopf ist $P(K) = 0.4$
 Somit: n = 5, p = 0.4, k $\geq$ 2
 
 $F(5;0.4;k\geq 2) = 1 - F(5;0.4;k\leq 1)$
+
+Gegenereignis von *mindestens* 2 Mal Kopf ist *höchstens* 1 Mal Kopf
 
 ---
 ##### Fall 3: Höchstens und Mindestens

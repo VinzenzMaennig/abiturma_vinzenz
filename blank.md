@@ -27,7 +27,7 @@ description: Intro slides to my math courses used to prepare high school student
 
 ---
 <!--header: -->
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
 
 ### Gleichungen: Rechenblock 2
 

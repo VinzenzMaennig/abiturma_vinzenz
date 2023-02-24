@@ -1,29 +1,21 @@
 ### Grundlagen
-- $x^{\frac{7}{6}} =\sqrt[6]{x^7}$
-
-- $\mathrm{e}^{\frac{2}{3} x} =\mathrm{e}^{\frac{2 x}{3}}=\sqrt[3]{\mathrm{e}^{2 x}}$
-
-- $\left( \frac{2}{\sqrt 3} \right)^2 =\frac{2^2}{(\sqrt 3)^2} = \frac{4}{3}$
-
-- $\sqrt[4]{x^2 y^4} = x^\frac{2}{4} y^\frac{4}{4} = x^\frac{1}{2} y$
-
-- $\ln 50 - \ln 20 + \ln \frac{2}{5} = \ln{(\frac{50}{20} \cdot \frac{2}{5})} = \ln 1 = 0$
 - Kahoot Wurzeln und reelle Zahlen
 
 ### Gleichungen
+- gleichungen lösen
 
 ### Funktionen
-- Kahoot Quadratische Funktionen - Parabeln (bei guten Kursen)
+- Kahoot Quadratische Funktionen - Parabeln
 - Kahoot Exponentialfkt 1
+
+### Verhalten im unendlichen
+- Mathemann Grenzverhalten
 
 ### Ableitungen
 - Kahoot Ableitungen 1
 
 ### Tangenten
 - Skizzen bei Tangenten
-
-### Tag 1 Recap:
-- Kahoot Gleichung
 
 ### Extrempunkte
 - Skizze
@@ -36,7 +28,7 @@
 
 ### Brüche
 - Grenzwerte mit aufschreiben
-- Gebrochen rationale fkt
+- Kahoot Gebrochen rationale fkt
 
 ### Tag 2 Recap:
 - Kahoot Ableitungen 2
@@ -52,18 +44,27 @@
 ### Analysis Ende:
 - Kahoot Analysis Check
 
+### Tag 4 Recap:
+- kahoot grundlagen exp 2
+
+
+Kahoots: https://mathefrosch.com/frosch-kahoots/
 ### Geo start
 - Kahoot Stammfkt 2
 https://mathefrosch.com/frosch-kahoots/
+
+### Geo Ebenen
+- Mathemann und die Hesse'sche Normalenform
 
 ### Geo Abstände
 - Abstand Punkt Ebene
 
 ### Geometrie Ende
-- Kahoot 
+- Kahoot check
 
 ### Stochastik
+- Würfel herzeigen
 - Satz von Bayes: https://www.youtube.com/watch?v=HZGCoVF3YvM
 
 ### Stochastik Ende
-- Kahoot 
+- Kahoot stochastik check

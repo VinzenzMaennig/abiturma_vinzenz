@@ -59,7 +59,7 @@ $x_2 = -1 \implies x_2 = -1$
 - Unendlich viele Lösungen
 
 ---
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
 ##### Was sind LGS?
 - Interpretation der Lösung
 - Interpretation der Addition
@@ -106,7 +106,7 @@ $\vec a = \begin{pmatrix}7 \\ 3 \\ -1\end{pmatrix}, \quad \vec b = \begin{pmatri
 $\vec e_1 = \begin{pmatrix}1 \\ 0 \\ 0\end{pmatrix}, \quad \vec e_2 = \begin{pmatrix}0 \\ 1 \\ 0\end{pmatrix}, \quad \vec e_3 = \begin{pmatrix}0 \\ 0 \\ 1\end{pmatrix}$
 
 ---
-- Mittelpunkt zwischen $\vec A$ und $\vec B$: $\vec M = \frac{1}{2} (\vec{B} - \vec A)$
+- Mittelpunkt zwischen $\vec A$ und $\vec B$: $\vec M = \frac{1}{2} (\vec{B} + \vec A)$
 - Lineare Abhängigkeit: 
 "Kann man einen Vektor durch andere Vektoren ausdrücken? Kann ich das Ziel auf mit anderen gestückelten Teilwegbeschreibungen erreichen?"
 

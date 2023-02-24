@@ -31,7 +31,7 @@ description: First part of the analysis slides
 
 ---
 <!--header: Analysis | Gleichungen-->
-<!--footer: Abiturma Abivorbereitungskurs | Winter 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
 ## Gleichungen, your turn!
 $x^2+x-2=0$
 $(x^2-4)(x-3)=0$
@@ -140,15 +140,15 @@ $\ln{(a - b)} \neq \ln{a} - \ln{b}$
 - $a^x = \mathrm e ^{\ln (a)x}$
 
 ##### Beispiele
-- $x^{\frac{7}{6}} =$
+- $x^{\frac{7}{6}} =\sqrt[6]{x^7}$
 
-- $\mathrm{e}^{\frac{2}{3} x} =$
+- $\mathrm{e}^{\frac{2}{3} x} =\mathrm{e}^{\frac{2 x}{3}}=\sqrt[3]{\mathrm{e}^{2 x}}$
 
-- $\left( \frac{2}{\sqrt 3} \right)^2 =$
+- $\left( \frac{2}{\sqrt 3} \right)^2 =\frac{2^2}{(\sqrt 3)^2} = \frac{4}{3}$
 
-- $\sqrt[4]{x^2 y^4} =$
+- $\sqrt[4]{x^2 y^4} = x^\frac{2}{4} y^\frac{4}{4} = x^\frac{1}{2} y$
 
-- $\ln 50 - \ln 20 + \ln \frac{2}{5} =$
+- $\ln 50 - \ln 20 + \ln \frac{2}{5} = \ln{(\frac{50}{20} \cdot \frac{2}{5})} = \ln 1 = 0$
 
 ---
 <!--header: Analysis | Gleichungen-->
@@ -162,6 +162,13 @@ Fast alle mathematischen Aufgaben beinhalten am Ende eine Gleichung, die gelöst
 4. Nach Bedarf: Substituieren
 5. Gleichung lösen
 6. Nach Bedarf: Rücksubstituieren
+
+---
+##### Noch mehr Fallstricke
+- Keine Logarithmen oder Wurzeln von Summen oder Brüchen
+$\ln{(a + b)} \neq \ln{a} + \ln{b}$
+$\sqrt{a + b} \neq \sqrt{a} + \sqrt{b}$
+- Kein Brüche erstellen durch Teilen oder Ausklammern!
 
 ---
 <!--header: Analysis | Gleichungen-->
@@ -267,9 +274,42 @@ $𝑓(𝑥)=𝑎𝑥^𝑛+𝑏𝑥^{𝑛−1}+𝑐𝑥^{𝑛−2}+⋯$
 ##### Ganzrationale Funktionen
 
 ---
+##### Verschiedene Schreibweisen von ganzrationalen Funktionen
+- Polynomform
+- Scheitelpunktsform
+- Nullstellenform
+
+---
 ##### Exponential- und Logarithmusfunktionen
 - Sind Gegen-/Umkehrfunktionen
 - $\mathrm e > 0, \quad \ln x, x > 0$
+
+---
+<!--header: Analysis | Kurvendiskussion: Funktionen manipulieren-->
+### Funktionen manipulieren
+##### Sinus und Cosinus
+![](images/nat_sin.svg)
+
+---
+![](images/nat_cos.svg)
+- Amplitude A:
+- Periode T:
+
+
+---
+##### Strecken und Stauchen
+![h:550](images/strecken_y.svg)
+
+---
+![h:550](images/strecken_x.svg)
+
+---
+##### Verschieben
+![h:550](images/verschieben.svg)
+
+---
+##### Spiegeln
+![h:550](images/spiegeln.svg)
 
 ---
 <!--header: Analysis | Kurvendiskussion: Nullstellen-->
@@ -291,6 +331,37 @@ $f(x_{Nullstellen})=0$
 Funktion gleich null setzen und Gleichung lösen
 
 $f(x)=x^5-9x^3$
+
+---
+##### Nullstellen bei Sinus und Kosinus
+- Nullstellen des natürlichen $\sin$: $x = n\pi, n \in \mathbb{Z}$
+- Nullstellen des natürlichen $\cos$: $x = \frac{(2n+1)}{2}\pi, n \in \mathbb{Z}$
+
+Rezept: Argument der trigonometrischen Funktion mit der "Nullstelle" gleichsetzen
+
+$f(x) = 3sin(2x)$
+
+$2x = n\pi \qquad |:2$
+$x = \frac{n\pi}{2}, n \in \mathbb{Z}$
+
+Da trigonometrische Funktionen periodisch sind, gibt es logischerweise unendlich viele Lösungen!
+
+---
+<!--header: Analysis | Kurvendiskussion: Rechenblock Funktionen-->
+### Kurvendiskussion: Rechenblock Funktionen
+
+| Schwierigkeit | Aufgaben |
+| ----------- | ----------- |
+| leicht |  |
+| mittel | 17 |
+| schwer |  |
+
+Für Schnelle und Unterforderte: 
+- Aufgabe 87 ff.
+
+---
+
+---
 
 ---
 <!--header: Analysis | Kurvendiskussion: Definitionsmengen-->
@@ -361,7 +432,7 @@ $h(x)=\ln{(x-3)}$
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht |  |
-| mittel | 17 |
+| mittel |  |
 | schwer | 18 |
 
 Für Schnelle und Unterforderte: 
@@ -487,7 +558,7 @@ Exakt gleiche Lösung, leicht anderer Weg!
 
 $f(x)=x^2 + 2x +1, \quad m=6$
 1. Ableiten und mit Steigung gleichsetzen
-$f^\prime = 2x+2 = 6 \qquad | -2$
+$f^\prime (x) = 2x+2 = 6 \qquad | -2$
 $2x = 4 \qquad | :2 \quad \implies x = 2$
 2. Punkt ausrechnen
 $f(2) = 2^2 + 2 \cdot 2 + 1 = 9 \implies P(2|9)$
@@ -631,8 +702,8 @@ $- \implies +$: Wechsel von Rechts- auf Linkskrümmung
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht | 43, 50, 52 |
-| mittel | 44, 47, 48, 49, 53 |
-| schwer | 46, 51 |
+| mittel | 47, 48, 49, 53 |
+| schwer | 44, 46, 51 |
 
 Für Schnelle und Unterforderte: 
 - Aufgabe 87 ff.
@@ -696,7 +767,7 @@ gerader Exponent
 - Es gibt nur ein "Loch" im Graphen
 
 $f(x) = \frac{2x+4}{(x+2)(x-1)}$
-- Nullstellen des Zählers: $x = -1$
+- Nullstellen des Zählers: $x = -2$
 - Nullstellen des Nenners: $x_1 = -2, x_2 = 1$
 $\implies \mathcal{D}_f = \mathbb{R} \setminus \{-2,1\}$
 Aber: $x=1$ ist eine einfache Polstelle und $x=-2$ ist keine Polstelle, sondern eine hebbare Definitionslücke, da sie auch Nullstelle des Zählers ist!
@@ -727,7 +798,8 @@ Die waagrechte Asymptote liegt bei $y = \frac{a}{b}$
 $\lim \limits_{x \to \pm \infty} = \frac{a}{b}$
 
 $f(x) = \frac{2x-1}{-x+1}$
-$\implies y = -2, \quad \lim \limits_{x \to \pm \infty} = -2$
+
+$\lim \limits_{x \to \pm \infty} = \frac{2}{-1} = - 2 \quad \implies y = -2$
 
 ---
 - Fall 3: ZG eins höher als NG
@@ -783,47 +855,6 @@ f(-x) & = (-x)^3 + 12(-x)^2 + 36(-x) = \\
 & = -x^3 + 12x^2 - 36x
 \end{aligned}$$
 3. Ist weder $f(x)$ oder $-f(x)$
-
----
-<!--header: Analysis | Kurvendiskussion: Funktionen manipulieren-->
-### Funktionen manipulieren
-##### Sinus und Cosinus
-![](images/nat_sin.svg)
-
----
-![](images/nat_cos.svg)
-- Amplitude A:
-- Periode T:
-
-
----
-##### Strecken und Stauchen
-![h:550](images/strecken_y.svg)
-
----
-![h:550](images/strecken_x.svg)
-
----
-##### Verschieben
-![h:550](images/verschieben.svg)
-
----
-##### Spiegeln
-![h:550](images/spiegeln.svg)
-
----
-##### Nullstellen bei Sinus und Kosinus
-- Nullstellen des natürlichen $\sin$: $x = n\pi, n \in \mathbb{Z}$
-- Nullstellen des natürlichen $\cos$: $x = \frac{(2n+1)}{2}\pi, n \in \mathbb{Z}$
-
-Rezept: Argument der trigonometrischen Funktion mit der "Nullstelle" gleichsetzen
-
-$f(x) = 3sin(2x)$
-
-$2x = n\pi \qquad |:2$
-$x = \frac{n\pi}{2}, n \in \mathbb{Z}$
-
-Da trigonometrische Funktionen periodisch sind, gibt es logischerweise unendlich viele Lösungen!
 
 ---
 <!--header: Analysis | Kurvendiskussion: Funktionen zeichnen-->
