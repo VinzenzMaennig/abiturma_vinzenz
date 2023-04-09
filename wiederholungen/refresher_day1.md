@@ -17,12 +17,12 @@ description: Exercises to reactivate day 1 skills
 ---
 # Willkommen zu Tag 2!
 Abiturma Abivorbereitungskurs
-Fasching 2023 München
+Ostern 2023 München
 Vinzenz Männig
 
 ---
 <!--header: Wiederholung Tag 1-->
-<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
 
 ##### Gleichungen lösen
 $x^3-x^2-4x=0, \quad \mathrm e ^{4x} = 4 \mathrm e^x, \quad \sqrt{x^2+4}+x-2=0$

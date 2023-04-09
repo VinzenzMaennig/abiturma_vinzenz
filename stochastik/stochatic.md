@@ -25,7 +25,7 @@ description: Stochastic slides
 - Hypothesentests
 
 ---
-<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
 <!--header: Grundlagen-->
 ### Grundlagen
 - Ergebnis: Ausgangsmöglichkeit eines Zufallsexperiments

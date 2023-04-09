@@ -59,7 +59,7 @@ $x_2 = -1 \implies x_2 = -1$
 - Unendlich viele Lösungen
 
 ---
-<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
 ##### Was sind LGS?
 - Interpretation der Lösung
 - Interpretation der Addition

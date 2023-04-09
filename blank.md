@@ -12,29 +12,11 @@ style: |
   }
 backgroundColor: white
 
-title: Test title
-description: Intro slides to my math courses used to prepare high school student for their final exams in Germany
+title: 
+description: 
 ---
-[comment]: <> (<span style="color:blue">If you need more colors</span>)
-[comment]: <> (<!--color: red-->)
-[comment]: <> (use underscore to make a command local)
-[comment]: <> (| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |)
-
 # Welcome!
 
 ---
 <!--header: -->
-<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
-
-### Gleichungen: Rechenblock 2
-
-| Schwierigkeit | Aufgaben |
-| ----------- | ----------- |
-| leicht | 1,3,4 |
-| mittel | 2,5,6,7,8,9,10 |
-| schwer | 12,13 |
-
-Für Schnelle und Unterforderte:
+<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->

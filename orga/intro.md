@@ -24,34 +24,34 @@ description: Intro slides to my abiturma course
 
 # Herzlich Willkommen!
 Abiturma Abivorbereitungskurs
-Fasching 2023 München
+Ostern 2023 München
 Vinzenz Männig
 
 ---
 <!--header: Intro | Who am I?-->
-<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
 
 ## Who am I?
 - Student aus München (Master Robotik, Bildverarbeitung und KI)
 - Aktuell: Masterarbeit Reinforcement Learning for Modular Robotics
 - Ansonsten: Softwareentwicklung und Abiturma
+- Aktuell für ein Halbjahr: Mathe und Physik Lehrer
 - Hobby: Handball
 
 ---
 <!--header: Intro | Wie läuft der Kurs ab?-->
 ## Wie läuft der Kurs ab?
-- Wir gehen alle Themen Stück für Stück nochmal durch und rechnen gemeinsam Aufgaben
+- Wir viel Themen Stück für Stück nochmal durch, sehen uns die Theorie und Beispiele an
 - Im Anschluss an die Theorie rechnet ihr selber Aufgaben und ich bespreche mit euch individuelle Fragen
 - Jeder Morgen startet mit eine kurzen Wiederholung der letzten Tages
 - Fokus auf Skizzen und Vorstellungskraft sowie einfachen, schematischen Rezepten
+- Kahoots zur Fortschrittskontrolle
 - **Ganz Wichtig:** Ich bin hier um eure Fragen zu beantworten, nicht um Frontalunterricht zu machen!
-- In den letzten Tagen rechnen wir je nach Fortschritt Abituraufgaben
 
 ---
 <!--header: Intro | Aber!-->
 ## Aber!
-- Intensivkurs setzt eigenständige Weiterarbeit voraus
-- Ich versuche euch alle Hilfen zu geben, die ihr benötigt
+- Intensivkurs setzt eigenständige Weiterarbeit voraus!
 - Nutzt das Buch
 - Wenn ihr etwas nicht auf anhieb versteht / lösen könnt, nicht sofort in die Lösungen schauen! Lieber etwas länger darüber nachdenken und mich dann fragen!
 - Mathe ist leider viel Übung und braucht Zeit (Rezept + Übung)
@@ -78,8 +78,7 @@ Vinzenz Männig
 <!--header: Intro | Kursort-->
 ## Kursort
 - WLAN-Passwort: 123heimerer!WLAN
-- Gemeinsame Whatsapp-Gruppe (nicht so wichtig wie Webseite)
 - Es gibt eine Dachterrasse im 5.OG (Eingang links)
 - Rauchen ist auf der Dachterrasse nicht erlaubt, nur unter vor dem Eingang.
-- Bistro im EG, Bistro im 5.OG darf nicht verwendet werden.
+- Bistro im 5.OG darf nicht verwendet werden.
 - Wer glaubt, sich in 15min Pause schnell einen Cafe beim Starbucks am HBF zu holen: Das schafft ihr nicht.

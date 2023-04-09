@@ -31,7 +31,7 @@ description: First part of the analysis slides
 
 ---
 <!--header: Analysis | Gleichungen-->
-<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
 ## Gleichungen, your turn!
 $x^2+x-2=0$
 $(x^2-4)(x-3)=0$
@@ -524,7 +524,7 @@ Für Schnelle und Unterforderte:
 ---
 ##### Tangentengleichung an einem Punkt: Rezept mit Beispiel
 
-$f(x)=-3x^2-x, \quad x = -1$
+$f(x)=-3x^3-x, \quad x = -1$
 1. Punkt ausrechnen
 $f(-1) = -3(-1)^3 - (-1) = 4 \implies P(-1|4)$
 2. Ableiten und Stelle einsetzen

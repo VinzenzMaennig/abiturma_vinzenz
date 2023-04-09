@@ -24,7 +24,7 @@ description: Second part of the analysis slides
 
 ---
 <!--header: Analysis | Integration-->
-<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
 ### Integration
 - Eine Funktion $F$ ist eine Stammfunktion einer Funktion $f$, wenn gilt: $F^\prime(x) = f(x)$
 - Eine Stammfunktion ist bis auf eine Konstante *C* eindeutig (diese fällt beim Ableiten weg)

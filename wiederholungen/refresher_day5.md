@@ -17,12 +17,12 @@ description: Exercises to reactivate day 4 skills
 ---
 # Willkommen zu Tag 6!
 Abiturma Abivorbereitungskurs
-Fasching 2023 München
+Ostern 2023 München
 Vinzenz Männig
 
 ---
 <!--header: Wiederholung Tag 5-->
-<!--footer: Abiturma Abivorbereitungskurs | Fasching 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
 ##### Ableitungen
 $f(x) = \mathrm e ^{\cos(x^2+4)}, \quad g(x)=\frac{3}{4\sqrt{x^3+x^2}}, \quad h(x) = \ln(\mathrm e^{4x^2})$
 
