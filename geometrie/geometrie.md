@@ -113,8 +113,8 @@ $\vec e_1 = \begin{pmatrix}1 \\ 0 \\ 0\end{pmatrix}, \quad \vec e_2 = \begin{pma
 ---
 - Lineare Abhängigkeit: 
 Rezept: 
-2-dimensional: Ein Vektor ist zu einem anderen nur lin. Abh., wenn die beiden kolinear sind. Bei drei oder mehr Vektoren herscht immer lin. Abh.
-3-dimensional: Ein Vektor ist zu einem anderen nur lin. Abh., wenn die beiden kolinear sind. Drei Vektoren sind lin. Abh., wenn das Spatprodukt aus ihnen null ergibt. Bei vier oder mehr Vektoren sind immer min. zwei lin. Abh.
+2-dimensional: Ein Vektor ist zu einem anderen nur lin. Abh., wenn die beiden kolinear sind. Bei drei oder mehr Vektoren herrscht immer lin. Abh.
+3-dimensional: Ein Vektor ist zu einem anderen nur lin. Abh., wenn die beiden kolinear sind. Drei Vektoren sind lin. Abh., wenn das Spatprodukt aus ihnen null ergibt (die Vektoren spannen kein Volumen auf). Bei vier oder mehr Vektoren sind immer min. zwei lin. Abh.
 
 ---
 - Skalarprodukt:
@@ -149,6 +149,9 @@ $V_{Spat} = |(\vec a \times \vec b) \circ \vec c|$
 Für Schnelle und Unterforderte:
 - Aufgabe 107
 - Umfangreiche Aufgaben 155ff.
+- Aufgabenblatt Geo Vektorbasics
+- Altabitur 2020 Geo
+- Altabitur 2021 Geo
 
 ---
 
@@ -267,6 +270,10 @@ $K: (x_1-2)^2+(x_2-4)^2+(x_3-1)^2 = 6^2 = 36$
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
+- Aufgabenblatt Geo Vektorbasics
+- Aufgabenblatt Geo Kugeln
+- Altabitur 2020 Geo
+- Altabitur 2021 Geo
 
 ---
 
@@ -387,10 +394,13 @@ $\vec X = \begin{pmatrix}0\\1\\0 \end{pmatrix} + (-1) \cdot \begin{pmatrix} 0\\-
 | ----------- | ----------- |
 | leicht | 128, 129, 131, 133, 134, 135, 136 |
 | mittel | 130, 132, 137 |
-| schwer |  |
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
+- Aufgabenblatt Geo Kugeln
+- Aufgabenblatt Geo Geraden Ebenen Lagebeziehungen
+- Altabitur 2020 Geo
+- Altabitur 2021 Geo
 
 ---
 
@@ -404,13 +414,15 @@ $\cos \alpha = \frac{\vec a \circ \vec b}{|\vec a| \cdot |\vec b|}$
 Achtung: Beide Vektoren müssen
 von gemeinsamen Punkt wegezeigen
 
+Wir sind immer nur an dem spitzen Winkel interessiert, d.h wenn ein stumpfer Winkel herauskommt, müssen wir diesen mit $180° - \alpha$ umrechnen.
+
+---
 ##### Zwei schneidende Geraden
 Richtungsvektoren $\vec a$ und $\vec b$
 $\cos \alpha = \frac{|\vec a \circ \vec b|}{|\vec a| \cdot |\vec b|}$
 Mit Schnittwinkel ist immer der 
 spitze Winkel gemeint!
 
----
 ##### Gerade und Ebene
 Richtungsvektor $\vec a$ und Normalenvektor $\vec n$
 $\sin \alpha = \frac{|\vec a \circ \vec n|}{|\vec a| \cdot |\vec n|}$
@@ -434,6 +446,9 @@ $\cos \alpha = \frac{|\vec n_1 \circ \vec n_2|}{|\vec n_1| \cdot |\vec n_2|}$
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
+- Aufgabenblatt Geo Geraden Ebenen Lagebeziehungen
+- Altabitur 2020 Geo
+- Altabitur 2021 Geo
 
 ---
 
@@ -490,22 +505,22 @@ Mit $r$ in $g$: $S(1|-1|-3)$
 $d(A,B) = \left| \begin{pmatrix} 5\\1\\1 \end{pmatrix} - \begin{pmatrix} 1\\-1\\-3 \end{pmatrix} \right| = 6$
 
 ---
-##### Rezept Punkt - Gerade mit Hilfsebene mit Beispiel
+##### Rezept Punkt - Lotfußpunktverfahren mit Beispiel
 $P( 5 | 1 | 1 ), \quad g: \vec X = \begin{pmatrix}-5\\-5\\5 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix}$
 1. Allgemeinen Vektor $\vec{PS}$ aufstellen. Über den Punkt $S$ ist bekannt, dass er auf $g$ liegt, nutze also die Darstellung in der Geradengleichung.
 
 $\vec{PS} = \left[ \begin{pmatrix}-5\\-5\\5 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix} \right] - \begin{pmatrix} 5\\1\\1 \end{pmatrix} = \begin{pmatrix}-10\\-6\\4 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix}$
 
 ---
-2. Skalarprodukt aus $\vec{PS}$ und dem Richtungsvektor von $g$ aufstellen und gleich null setzen. Der kürzeste Abestand impiziert rechten Winkel
-$\vec{PS} \circ \vec {X_g} = 0 = \left[ \begin{pmatrix}-10\\-6\\4 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix} \right] \circ \begin{pmatrix} 3\\2\\-4 \end{pmatrix} =$
+2. Skalarprodukt aus $\vec{PS}$ und dem Richtungsvektor von $g$ aufstellen und gleich null setzen. Den kürzesten Abestand findet man durch das fällen eines Lotes.
+$\vec{PS} \circ \vec {v} = 0 = \left[ \begin{pmatrix}-10\\-6\\4 \end{pmatrix} + r \cdot \begin{pmatrix} 3\\2\\-4 \end{pmatrix} \right] \circ \begin{pmatrix} 3\\2\\-4 \end{pmatrix} =$
 $(-30+9r)+(-12+4r)+(-16+16r) = -58+29r$
 $-58+29r = 0 \qquad | +58$
 $29r = 58 \qquad | :29 \implies r=2 \implies S(1|-1|-3)$
 
 3. Berechne den Abstand zwischen S und P
 
-$d(A,B) = \left| \begin{pmatrix} 5\\1\\1 \end{pmatrix} - \begin{pmatrix} 1\\-1\\-3 \end{pmatrix} \right| = 6$
+$d(\vec P, \vec S) = \left| \begin{pmatrix} 5\\1\\1 \end{pmatrix} - \begin{pmatrix} 1\\-1\\-3 \end{pmatrix} \right| = 6$
 
 ---
 ##### Ebene - Ebene
@@ -550,6 +565,9 @@ $d(P,H) = \frac{|-2 · 12 - 3 · 0 + 6 · 1 - 31|}{\sqrt{22 + 32 + 62}}=\frac{49
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
+- Aufgabenblatt Geo Geraden Ebenen Lagebeziehungen
+- Altabitur 2020 Geo
+- Altabitur 2021 Geo
 
 ---
 
@@ -562,12 +580,11 @@ Fall 1: Aufgabe mit einer punktförmigen Lichtquelle (Lampe).
 1. Stelle Hilfsgeraden auf, welche die Lichtquelle mit den Eckpunkte der Objekte, die Schatten werfen, verbinden.
 2. Schneide die Hilfsgeraden mit der Ebene, auf welche die Schatten fallen.
 
+---
 Fall 2: Aufgabe mit einer weit entfernten Lichtquelle (Sonne).
 1. Stelle Hilfsgeraden auf, die durch die Eckpunkte der Objekte, die Schatten werfen, gehen und in Richtung der Sonnenstrahlen verlaufen.
 2. Schneide die Hilfsgeraden mit der Ebene, auf welche die Schatten fallen.
 
----
-##### Skizze
 ---
 ##### Einfaches Beispiel
 Lampe $L( 1 | 2 | 4 )$, Bestimme den Schattenpunkt des Punktes $P( 2 | 0 | 2 )$ auf der $x_1x_2$- Ebene.
@@ -606,6 +623,9 @@ $\vec B = \vec P + 2 \vec {PS}$
 
 Für Schnelle und Unterforderte:
 - Umfangreiche Aufgaben 155ff.
+- Aufgabenblatt Geo Geraden Ebenen Lagebeziehungen
+- Altabitur 2020 Geo
+- Altabitur 2021 Geo
 
 ---
 

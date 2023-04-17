@@ -40,32 +40,30 @@ description: Stochastic slides
 ##### Laplace-Experiment
 $P(A) = \frac{|Günstige Ergebnisse|}{|Alle Ergebnisse|} = \frac{|A|}{|\Omega|}$
 
-- Würfeln, Glücksrad mit gleich großen Sektoren drehen, alle Zufallsexperimente, wo alle Ergebnisse die selbe Wahrscheinlichkeit haben
+- Würfeln
+- Glücksrad mit gleich großen Sektoren drehen
+- Zufallsexperimente, bei denen alle Ergebnisse die selbe Wahrscheinlichkeit haben
 
 Beispiel: Wahrscheinlichkeit eine gerade Augenzahl zu würfeln
 $P(gerade Augenzahl) = \frac{3}{6}$
 
 ---
 ##### Rechnen mit Wahrscheinlichkeiten
-Schnitt $A \cap B$ ("und"), Vereinigung $A \cup B$ ("oder")
-&nbsp;
-
-Satz von Sylvester: $P(A\cup B) = P(A) + P(B) - P(A \cap B)$
-&nbsp;
-
-Regeln von De Morgan:
-$\overline{A\cup B} = \qquad \qquad \qquad \overline{A\cap B}=$
-
 Stochastische Unabhängigkeit:
 A, B unabhängig $\Leftrightarrow P(A\cap B) = P(A) \cdot P(B)$
 
-Berechne $P(A\cap B)$, dann berechne $P(A) \cdot P(B)$, schließlich: Gilt $P(A\cap B) = P(A) \cdot P(B)$?
-$P(A\cap B) = P(A) \cdot P(B)$ gilt nur bei Unabhängigkeit!
+- Wenn stochastische Unabhängigkeit gezeigt werden soll:
+Berechne $P(A\cap B)$, dann berechne $P(A) \cdot P(B)$, schließlich zeige, dass $P(A\cap B) = P(A) \cdot P(B)$ gilt!
+
+- Wenn bekannt ist, dass zwei Ereignisse unabhängig sind:
+$P(A\cap B) = P(A) \cdot P(B)$ darf als Formel verwendet werden!
+
+**$P(A\cap B) = P(A) \cdot P(B)$ darf nur verwendet werden, wenn die Ereignisse auch wirklich stochastisch unabhängig sind!**
 
 ---
 ##### Vierfeldertafel
 Vergleich von zwei binären Ereignissen
-Beispiel: In einer Schulklasse gibt es 12 weibliche und 8 männliche Schüler. Zwei Jungs sind Raucher. Insgesamt raucht ein Fünftel aller Schüler dieser Klasse.
+Beispiel: In einer Schulklasse haben 12 SchülerInnen mindestens ein Haustier und 8 haben keines. Zwei der haustierbesitzenden SchülerInnen sind Raucher. Insgesamt raucht ein Fünftel aller SchülerInnen dieser Klasse.
 ![](images/vierfeldertafel.png)
 
 ---
@@ -73,12 +71,15 @@ Beispiel: In einer Schulklasse gibt es 12 weibliche und 8 männliche Schüler. Z
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 162, 163, 164, 165 |
-| mittel | 166, 168, 169, 170 |
-| schwer | 167 |
+| leicht | 162, 163, 164, 165, 166 |
+| mittel | 167, 169, 170 |
+| schwer | |
 
 Für Schnelle und Unterforderte: 
 - Aufgaben 205 ff.
+- Aufgabenblatt Stochastik Grundlagen (2018 A1, 2015 B2)
+- Altabitur 2020 Stochastik
+- Altabitur 2021 Stochastik
 
 ---
 
@@ -86,11 +87,20 @@ Für Schnelle und Unterforderte:
 
 ---
 <!--header: Bedingte Wahrscheinlichkeiten und Baumdiagramme-->
+### Motivation
+„Steve ist sehr schüchtern und zurückgezogen, immer hilfsbereit, aber wenig interessiert an Menschen oder der Welt der Realität. Als sanftmütige und ordentliche Seele hat er ein Bedürfnis nach Ordnung und Struktur und eine Leidenschaft fürs Detail.“ 
+
+Ist Steve eher ein Bibliothekar oder ein Bauer?
+
+---
+### Bedingte Wahrscheinlichkeit versus Schnittwahrscheinlichkeit
+
+
+---
 ### Bedingte Wahrscheinlichkeiten und Baumdiagramme
 $P_B(A) = P(A|B)=\frac{P(A\cap B)}{P(B)}$
 
-##### Rezept
-Beispiel: In einer Schulklasse befinden sich 10 Jungen und 15 Mädchen. Dabei sind 4 Jungs und 3 Mädchen blond. Bestimme die Wahrscheinlichkeit dafür, dass ein zufällig ausgewählter Junge blond ist.
+Beispiel: In einer Schulklasse befinden sich 10 blauäugige und 15 SchülerInnen mit anderer Augenfarbe. Dabei sind 4 blauäugige und 3 nicht blauäugige SchülerInnen blond. Bestimme die Wahrscheinlichkeit dafür, dass ein zufällig ausgewählte blauäugige Person blond ist.
 1. Teilwahrscheinlichkeiten berechnen/auslesen
 &nbsp;
 &nbsp;
@@ -112,6 +122,10 @@ jeder Ebene gleich aus. Die Ereignisse auf verschiedenen Ebenen sind stochastisc
 - Ziehen ohne Zurücklegen: Werden die Kugeln nicht zurückgelegt, so verändern sich die Wahrscheinlichkeiten. Die Anzahl aller Möglichkeiten verringert sich pro Ebene um eins. Entsprechend des vorherigen Zuges verändert sich auch die Anzahl der günstigen Möglichkeiten. Die Ereignisse der verschiedenen Ebenen sind daher stochastisch abhängig voneinander.
 
 ---
+##### Aufgabe 175
+![h:300](images/baum_umdrehen.png)
+
+---
 ##### Stochastische Abhängigkeit erkennen
 Am Baumdiagramm kann man ebenfalls erkennen, ob die Ereignisse A und B unabhängig sind, falls gilt: $𝑃_𝐴(𝐵)=𝑃_{\overline A}(𝐵)$
 
@@ -131,10 +145,6 @@ $P_A(B)=\frac{P_B(A)P(B)}{P(A)}$
 Die bedingte Wahrscheinlichkeit kann also ganz einfach umgedreht werden!
 
 ---
-##### Aufgabe 175
-![h:300](images/baum_umdrehen.png)
-
----
 ##### Bedingte Wahrscheinlichkeit vs Schnitt erkennen
 Die Wahrscheinlichkeit ...
 - ... dass jemand ein rauchender Junge ist
@@ -148,6 +158,16 @@ Die Wahrscheinlichkeit ...
 - ... eine zufällig ausgewählte Person, die ein Junge ist, raucht
 
 ---
+##### Schlagworte
+Schnittwahrscheinlichkeiten:
+- "und"
+- Adjektiv
+
+Bedingte Wahrscheinlichkeiten:
+- Relativsatz
+- Nomen + Verb
+
+---
 ### Bedingte Wahrscheinlichkeiten und Baumdiagramme: Rechenblock
 
 | Schwierigkeit | Aufgaben |
@@ -158,6 +178,9 @@ Die Wahrscheinlichkeit ...
 
 Für Schnelle und Unterforderte: 
 - Aufgaben 205 ff.
+- Aufgabenblatt Stochastik Grundlagen
+- Altabitur 2020 Stochastik
+- Altabitur 2021 Stochastik
 
 ---
 
@@ -219,6 +242,10 @@ $=2.92$
 $\sigma(X) = \sqrt{Var[X]} = \sqrt{2.92} = 1.71$
 
 ---
+##### Bestimmen der Wahrscheinlichkeit
+Es werden Lose gezogen. Ein Sieg bringt 20€, eine Niete bringt 1€ Trostpreis. Bestimme die Gewinn-zu-Nieten Quote im Topf, damit ein Lospreis von 2€ fair ist.
+
+---
 ### Erwartungswert, Varianz und Standardabweichung: Rechenblock
 
 | Schwierigkeit | Aufgaben |
@@ -229,6 +256,11 @@ $\sigma(X) = \sqrt{Var[X]} = \sqrt{2.92} = 1.71$
 
 Für Schnelle und Unterforderte:
 - Aufgaben 205 ff.
+- Aufgabenblatt Stochastik Grundlagen
+- Aufgabenblatt Zufallsgrößen
+- Altabitur 2020 Stochastik, 2021 Stochastik
+
+---
 
 ---
 <!--header: Kombinatorik und Binomialkoeffizient-->
@@ -288,6 +320,16 @@ $\begin{pmatrix}n \\ 0\end{pmatrix}= \begin{pmatrix}n \\ n\end{pmatrix}=1$
 $\begin{pmatrix}n \\ n-k\end{pmatrix}= \begin{pmatrix}n \\ k\end{pmatrix}$
 
 ---
+##### Hypergeometrische Verteilung (nicht Abirelevant)
+- ohne Zurücklegen
+- ohne Beachtung der Reihenfolge
+- $N$ ist die Anzahl der Elemente einer Grundgesamtheit
+- $M \leq N$ ist die Anzahl der Elemente mit einer bestimmten Eigenschaft in dieser Grundmenge (die Anzahl möglicher Erfolge)
+- $n \leq N$ ist die Anzahl der Elemente in einer Stichprobe
+
+$h(k | N;M;n) = h_{N;M;n}(k) = P(X=k) = \frac{\begin{pmatrix}M \\ k\end{pmatrix}\begin{pmatrix}N-M \\ n-k\end{pmatrix}}{\begin{pmatrix}N \\ n\end{pmatrix}}$
+
+---
 ### Kombinatorik und Binomialkoeffizient: Rechenblock
 
 | Schwierigkeit | Aufgaben |
@@ -298,6 +340,13 @@ $\begin{pmatrix}n \\ n-k\end{pmatrix}= \begin{pmatrix}n \\ k\end{pmatrix}$
 
 Für Schnelle und Unterforderte:
 - Aufgaben 205 ff.
+- Aufgabenblatt Stochastik Grundlagen
+- Aufgabenblatt Zufallsgrößen
+- Altabitur 2020 Stochastik, 2021 Stochastik
+
+---
+
+---
 
 ---
 <!--header: Binomialverteilung-->
@@ -371,7 +420,16 @@ $F(5;0.4;2 \leq k \leq 4) = F(5;0.4;k\leq 4) - F(5;0.4;k\leq 1)$
 | mittel | 188, 189, 190, 195, 196 |
 | schwer | 191, 193, 197, 198, 199 |
 
-![h:300](images/evil_emma.png)
+Für Schnelle und Unterforderte:
+- Aufgaben 205 ff.
+- Aufgabenblatt Binomialverteilung
+- Altabitur 2020 Stochastik
+- Altabitur 2021 Stochastik
+
+---
+![h:400](images/evil_emma.png)
+
+---
 
 ---
 <!--header: 3M-Aufgaben-->
@@ -421,6 +479,11 @@ $p\geq 1-\sqrt[100]{0.05} =0.030$
 
 Für Schnelle und Unterforderte:
 - Aufgaben 205 ff.
+- Aufgabenblatt Binomialverteilung
+- Altabitur 2020 Stochastik
+- Altabitur 2021 Stochastik
+
+---
 
 ---
 <!--header: Hypothesentests-->

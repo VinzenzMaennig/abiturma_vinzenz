@@ -59,7 +59,7 @@ $g(x) = \sqrt{4x-3}$
 
 ---
 ##### Logarithmische Substitution
-$f(x) = a \cdot \frac{g^\prime(x)}{g(x)} \quad \implies \quad F(x) = a \cdot \ln(g(x))$
+$f(x) = a \cdot \frac{g^\prime(x)}{g(x)} \quad \implies \quad F(x) = a \cdot \ln |g(x)|$
 
 $f(x) = \frac{4x-3}{2x^2-3x+1}$
 &nbsp;
@@ -138,6 +138,8 @@ $\pi\left[\frac{1}{5}x^5+\frac{2}{3}x^3+x \right]_{-1}^1 = \pi\left(\frac{1}{5}+
 Für Schnelle und Unterforderte:
 - Aufgabe 87 ff.
 - Aufgaben vom Extrablatt zu Rotationskörpern
+- Aufgabenblatt Analysis Integralrechnung
+- Altabitur 2020 Analysis
 ---
 
 ---
@@ -188,6 +190,9 @@ $= \lim \limits_{z \to \infty} -0+1 = 1$
 
 Für Schnelle und Unterforderte:
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Integralrechnung
+- Altabitur 2020 Analysis
+
 ---
 
 ---
@@ -199,14 +204,14 @@ Für Schnelle und Unterforderte:
 ##### Definitions- und Wertemenge
 
 - Die Wertemenge $\mathcal W$ ist die Menge aller Zahlen, die aus einer Funktion rauskommen können
-- Die Wertemenge wird begrenzt durch das Verhalten im Unendlichen und Extrempunkte
+- Die Wertemenge wird begrenzt durch das Verhalten an den Definitionsrändern und den Extrempunkten
 $f(x) = \mathrm e^x, \quad g(x) = -x^2+4$
 
 ---
 ##### Bestimmmung Wertemenge mit Rezept
 $f(x) = -x^2+4$
 
-1. Verhalten im unendlichen und Extremstellen finden
+1. Verhalten an den Definitionsrändern und Extrempunkte finden
 $\lim \limits_{x \to \pm \infty} f(x) = -\infty$
 $f^\prime(x) = -2x \implies HP(0|4)$
 2. Alle dazwischen befindlichen Werte angeben
@@ -258,6 +263,8 @@ Für Schnelle und Unterforderte:
 - Wertemengen von: $f(x) = \mathrm e^x +4, \quad g(x)= 3x^2-2$
 $h(x) = \sqrt{x-4}-1, \quad i(x)= \frac{1}{x}, \quad j(x)=\frac{1}{(x-2)^2}$
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Umkehrfunktion
+- Altabitur 2020 Analysis
 ---
 Lösungen der Wertemengen:
 $f(x) = \mathrm e^x +4 \implies \mathcal W=]4,+\infty[$

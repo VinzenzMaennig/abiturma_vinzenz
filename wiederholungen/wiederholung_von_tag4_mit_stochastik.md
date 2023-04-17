@@ -32,11 +32,10 @@ $h(x) = \frac{4x^2}{3\ln(\mathrm e +4)}$
 ##### Gib Definitions- und Wertebereiche an
 $f(x) = 3+\sqrt{9-x^2}, \quad g(x) = \frac{\ln(x-7)}{3}$
 
-##### Bestimme alle Asymptoten
-$f(x) = \frac{x-3}{x^2-4}, \quad g(x) = \frac{x(2x-1)}{(3x+1)(5x+7)}$
-
 ##### Kurvendiskussion (Def, NST, Extrema, WP, Tangente m=0)
 $f(x) = 2\mathrm e ^{x^2-2}-2$
+
+##### Zeichne ein vollständiges Baumdiagramm, berechne $P_B(A)$ und prüfe auf stochastische Unabhängigkeit aus folgenden Informaionen: $P_{\bar{A}}(B) = 0.4$, $P(\bar{A} \cap B) = P(\bar{B} \cap A) = 0.2$
 
 ---
 ##### Lösungen
@@ -50,9 +49,6 @@ $\int \frac{1}{4x+2} dx = \frac{1}{4} \ln(4x+2)$
 $f(x) = 3+\sqrt{9-x^2} \implies \mathcal D = [-3,3], \mathcal W = [3,6]$
 $g(x) = \frac{\ln(x-7)}{3} \implies \mathcal D = [7; + \infty[, \mathcal W = \mathbb R$
 
-$f(x) = \frac{x-3}{x^2-4} \implies y=0, x_1 = -2, x_2 = 2$
-$g(x) = \frac{x(2x-1)}{(3x+1)(5x+7)} \implies y=\frac{2}{15}, x_1=-\frac{1}{3}, x_2 =-\frac{7}{5}$
-
 ---
 $f(x) = 2\mathrm e ^{x^2-2}-2$
 - Definitionsbereich: $\mathcal D = \mathbb R$
@@ -60,6 +56,9 @@ $f(x) = 2\mathrm e ^{x^2-2}-2$
 - Extrema: TP(0|-1.72)
 - Wendepunkte: Keine
 - Tangente: $y = -1.72$
+
+$P_B(A) = 0.6$
+$P_A(B) = 0.6 = P_{\bar A}(B) \implies$ stochastisch Unabhängig
 
 ---
 

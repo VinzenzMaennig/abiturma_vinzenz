@@ -22,9 +22,10 @@ Damit du die einfach Plotting-Skripte verwenden kannst, empfehle ich eine Anacon
 
 ## TODO Liste;
 ### Prio A
-- Scharen (Analysis Part 3)
 - Geo Kahoots (Bisher Mathefrosch)
 - Stochastik Kahoots (Bisher Mathefrosch)
+- Karteikarten aus den Kahootfragen erstellen
+- ausgefüllte folien erstellen
 
 ### Prio B
 - Kugel Schnitte und Abstände

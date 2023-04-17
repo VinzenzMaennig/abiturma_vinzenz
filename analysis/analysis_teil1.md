@@ -358,6 +358,8 @@ Da trigonometrische Funktionen periodisch sind, gibt es logischerweise unendlich
 
 Für Schnelle und Unterforderte: 
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Grundlagen und Funktionsklassen
+- Altabitur 2020 Analysis
 
 ---
 
@@ -432,11 +434,13 @@ $h(x)=\ln{(x-3)}$
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht |  |
-| mittel |  |
+| mittel | 17 |
 | schwer | 18 |
 
 Für Schnelle und Unterforderte: 
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Grundlagen und Funktionsklassen
+- Altabitur 2020 Analysis
 
 ---
 
@@ -510,6 +514,9 @@ $l(x) = \frac{x^2+x}{ln x}$
 
 Für Schnelle und Unterforderte: 
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Ableitungen
+- Aufgabenblatt Analysis Grundlagen und Funktionsklassen
+- Altabitur 2020 Analysis
 
 ---
 
@@ -601,6 +608,9 @@ $y = -\frac{1}{3}x-\frac{10}{3}$
 Für Schnelle und Unterforderte: 
 - Extrablatt zu den Normalen mit Aufgaben 57, 58, 59
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Ableitungen
+- Aufgabenblatt Analysis Kurvendiskussion
+- Altabitur 2020 Analysis
 
 ---
 
@@ -707,6 +717,9 @@ $- \implies +$: Wechsel von Rechts- auf Linkskrümmung
 
 Für Schnelle und Unterforderte: 
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Ableitungen
+- Aufgabenblatt Analysis Kurvendiskussion
+- Altabitur 2020 Analysis
 
 ---
 
@@ -809,7 +822,7 @@ $f(x) = \frac{(3+x)^2}{x-1}$
 
 ---
 - Fall 4: ZG mehr als eins größer als NG
-Keine waagrechte/senkrechte Asymptote
+Keine waagrechte/schrägen Asymptote
 
 ---
 <!--header: Analysis | Kurvendiskussion: Rechenblock 5-->
@@ -824,6 +837,9 @@ Keine waagrechte/senkrechte Asymptote
 Für Schnelle und Unterforderte: 
 - Aufgaben im Extradokument zu Gebrochenrationalen Funktionen
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Ableitungen
+- Aufgabenblatt Analysis Kurvendiskussion
+- Altabitur 2020 Analysis
 
 ---
 
@@ -903,6 +919,8 @@ Beispiel
 
 Für Schnelle und Unterforderte: 
 - Aufgabe 87 ff.
+- Aufgabenblatt Analysis Kurvendiskussion
+- Altabitur 2020 Analysis
 
 ---
 

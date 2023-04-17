@@ -56,8 +56,6 @@ Kursleiter Vorbesprechung
 
 ---
 ### Ausblick auf die sonstigen Tage
-- Tag 3: Am besten schonmal die Listen ansprechen und fragen, wer Interesse an einem Rechnkurs hat (damit wir besser planen können).
-Außerdem fangen wir hier an, die Leute an ihre Zahlungen zu erinnern.
 - Tag 4: KL Hospitation
 - Tag 5: Evaluation und KL Essen
 - Tag 6: Probeabitur in den RK Kursen
@@ -84,7 +82,8 @@ Außerdem fangen wir hier an, die Leute an ihre Zahlungen zu erinnern.
 - Traditionellerweise sind die guten Kurse gegen Ende der Woche sehr voll. D.h, wenn einzelne Personen in eurem Kurs das Tempo nicht mitgehen können, versucht ihnen diplomatisch mitzuteilen, dass sie in einen schlechteren Kurs müssen und zieht im Tempo etwas an.
 
 ---
-- Sophia ganztags, Franziska nachmittags rein Abicrash, alle anderen reine Abiturma Kurse
+- Vormittags Abicrash: Verena (stark), Brian (mittel), Philipp (schwach)
+- Nachmittags Rechenkurs: Brian (stark), Laura (schwach)
 - Notiert, wer nicht da ist.
 - Wenn jemand den Kurs abbrechen will (Bis Ende zweiter Tag geht das kostenlos), versucht erst ihn vorsichtig dazu zu bewegen, einen anderen Kurs auszuprobieren. Falls er das probiert hat oder wirklich nicht will, sagt ihm er soll den Kundendienst anschreiben und die stornieren das. Wir machen das nicht selber. Sagt mir kurz Bescheid, wenn euch einer verlässt.
 - Abbrecher sind kein "Problem"! Schwund ist immer.
@@ -94,7 +93,7 @@ Außerdem fangen wir hier an, die Leute an ihre Zahlungen zu erinnern.
 - Wichtig: Bitte Duzen!
 - Fühlt euch im Unterricht frei!
 - Ein Tipp für alle: Es geht nicht darum, alles zu schaffen! (Zeit nehmen für die wichtigen Themen, nicht zu sehr dozieren, Frontalunterricht nicht zu lange am Stück)
-- Meistens finden die SuS ein Probeabi am letzten Tag gut
+- Oft finden die SuS ein Probeabi am letzten Tag gut
 - Es soll den Kindern etwas bringen, aber auch Spaß machen! Am Ende zählt die *Zufriedenheit*
 - Denkt daran, am ersten Kurstag ein kurzes Feedback einzuholen (kurze Fragen)
 
@@ -120,11 +119,18 @@ Außerdem fangen wir hier an, die Leute an ihre Zahlungen zu erinnern.
 (findet ihr auf http://abiturma.vinzenz-maennig.de/ unter Zusatzmaterialien)
 
 ---
+##### Was kommt sowieso nie dran (Mythen und alte Lehrpläne)?
+- Gleichungssysteme mit mehr als 2 Gleichungen (Also auch kein Additionsverfahren, keine Matrizen, keine Stufenform, kein Gauß-Algo)
+- Schnittkreise
+- Polynomdivision
+- Rotationskörper bei Integralen
+
+---
 ##### Was wurde dieses Jahr gestrichen?
 - Integralfunktion
-- Sinus- und Kosinusfunktion (Nullstellen und Manipulation)
+- Sinus und Kosinus Funktionen (Nullstellen, Manipulation, auch keine Ableitungen), d.h nur zur klassischen Winkelbestimmung in der Geometrie oder $tan(\alpha)$ = Steigung in der Analysis
 - Newton-Verfahren
-- Signifikanztest
+- Signifikanztest und damit auch Hypothesentest (= einseitiger Signifikanztest)
 - Bestimmung einer Gleichung der Schnittgerade von Ebenen
 - Bestimmung des Abstands windschiefer Geraden
 
