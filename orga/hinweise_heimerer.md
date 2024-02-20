@@ -24,7 +24,7 @@ description: Intro slides to my abiturma course
 
 # Herzlich Willkommen!
 Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Fasching 2024 München
 Hinweise zu den Räumlichkeiten
 
 ---

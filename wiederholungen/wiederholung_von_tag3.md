@@ -16,13 +16,13 @@ title: Refresher Day 3
 description: Exercises to reactivate day 3 skills
 ---
 # Willkommen zu Tag 4!
-Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Abiturma/Abicrash Abivorbereitungskurs
+Fasching 2024 München
 Vinzenz Männig
 
 ---
 <!--header: Wiederholung Tag 4-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ##### Gleichungen
 $2\mathrm e ^{2x} - 8\mathrm e ^{3x} = 0, \quad \ln(\mathrm e^{2x}+ \mathrm e^{4x}) = \ln(2\mathrm e^{2x})$
 $\sqrt{x^4-5}-x^2+2=0$

@@ -59,7 +59,7 @@ $x_2 = -1 \implies x_2 = -1$
 - Unendlich viele Lösungen
 
 ---
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ##### Was sind LGS?
 - Interpretation der Lösung
 - Interpretation der Addition
@@ -131,7 +131,7 @@ $\sin \alpha = \frac{|\vec a \times \vec b|}{|\vec a| \cdot |\vec b|}$
 $\begin{pmatrix}-2 \\ 3 \\ 1 \end{pmatrix} \times \begin{pmatrix}10 \\ 2 \\ -1 \end{pmatrix}$
 
 ---
-- Volumina:
+- Flächen und Volumina:
 $A_\triangle = \frac{1}{2} |\vec a \times \vec b|$
 $A_\square = |\vec a \times \vec b|$
 $V_{Pyramide} = \frac{1}{6} |(\vec a \times \vec b) \circ \vec c|$
@@ -142,13 +142,12 @@ $V_{Spat} = |(\vec a \times \vec b) \circ \vec c|$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 100, 103, 105, 108, 109, 110, 113, 115 |
-| mittel | 101, 102, 106, 111, 112, 114 |
-| schwer | 104 |
+| leicht | G-9, G-10 |
+| mittel | G-12, G-13, G-14 |
+| schwer | G-16, G-17 |
 
 Für Schnelle und Unterforderte:
-- Aufgabe 107
-- Umfangreiche Aufgaben 155ff.
+- Umfangreiche Aufgaben G-108ff.
 - Aufgabenblatt Geo Vektorbasics
 - Altabitur 2020 Geo
 - Altabitur 2021 Geo
@@ -264,12 +263,12 @@ $K: (x_1-2)^2+(x_2-4)^2+(x_3-1)^2 = 6^2 = 36$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 116, 122, 124, 127 |
-| mittel | 117, 118, 119, 120, 121, 125 |
-| schwer | 123, 126 |
+| leicht | G-19, G-20, G-24, G-25, G-32 |
+| mittel | G-21, G-26, G-27, G-28, G-29, G-34 |
+| schwer | G-22, G-23, G-30, G-31, G-35 |
 
 Für Schnelle und Unterforderte:
-- Umfangreiche Aufgaben 155ff.
+- Umfangreiche Aufgaben G-108ff.
 - Aufgabenblatt Geo Vektorbasics
 - Aufgabenblatt Geo Kugeln
 - Altabitur 2020 Geo
@@ -396,7 +395,7 @@ $\vec X = \begin{pmatrix}0\\1\\0 \end{pmatrix} + (-1) \cdot \begin{pmatrix} 0\\-
 | mittel | 130, 132, 137 |
 
 Für Schnelle und Unterforderte:
-- Umfangreiche Aufgaben 155ff.
+- Umfangreiche Aufgaben G-108ff.
 - Aufgabenblatt Geo Kugeln
 - Aufgabenblatt Geo Geraden Ebenen Lagebeziehungen
 - Altabitur 2020 Geo
@@ -445,7 +444,7 @@ $\cos \alpha = \frac{|\vec n_1 \circ \vec n_2|}{|\vec n_1| \cdot |\vec n_2|}$
 | schwer | 144 |
 
 Für Schnelle und Unterforderte:
-- Umfangreiche Aufgaben 155ff.
+- Umfangreiche Aufgaben G-108ff.
 - Aufgabenblatt Geo Geraden Ebenen Lagebeziehungen
 - Altabitur 2020 Geo
 - Altabitur 2021 Geo
@@ -564,7 +563,7 @@ $d(P,H) = \frac{|-2 · 12 - 3 · 0 + 6 · 1 - 31|}{\sqrt{22 + 32 + 62}}=\frac{49
 | schwer |  |
 
 Für Schnelle und Unterforderte:
-- Umfangreiche Aufgaben 155ff.
+- Umfangreiche Aufgaben G-108ff.
 - Aufgabenblatt Geo Geraden Ebenen Lagebeziehungen
 - Altabitur 2020 Geo
 - Altabitur 2021 Geo
@@ -622,7 +621,7 @@ $\vec B = \vec P + 2 \vec {PS}$
 | schwer | 154 |
 
 Für Schnelle und Unterforderte:
-- Umfangreiche Aufgaben 155ff.
+- Umfangreiche Aufgaben G-108ff.
 - Aufgabenblatt Geo Geraden Ebenen Lagebeziehungen
 - Altabitur 2020 Geo
 - Altabitur 2021 Geo

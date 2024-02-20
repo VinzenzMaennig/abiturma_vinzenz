@@ -16,13 +16,13 @@ title: Refresher Day 4
 description: Exercises to reactivate day 4 skills
 ---
 # Willkommen zu Tag 5!
-Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Abiturma/Abicrash Abivorbereitungskurs
+Fasching 2024 München
 Vinzenz Männig
 
 ---
 <!--header: Wiederholung Tag 5-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ##### Ableitungen
 $f(x) = \cos(x) \sin(x^2-x+2) \quad g(x) = \frac{2\mathrm e +1}{4\sqrt{x^2-2}}$
 $h(x) = \frac{4x^2}{3\ln(\mathrm e +4)}$
@@ -48,7 +48,7 @@ $h(x) = \frac{4x^2}{3\ln(\mathrm e +4)} \implies h^\prime(x) = \frac{8}{3\ln(\ma
 $\int \frac{1}{4x+2} dx = \frac{1}{4} \ln(4x+2)$
 
 $f(x) = 3+\sqrt{9-x^2} \implies \mathcal D = [-3,3], \mathcal W = [3,6]$
-$g(x) = \frac{\ln(x-7)}{3} \implies \mathcal D = [7; + \infty[, \mathcal W = \mathbb R$
+$g(x) = \frac{\ln(x-7)}{3} \implies \mathcal D = ]7; + \infty[, \mathcal W = \mathbb R$
 
 $f(x) = \frac{x-3}{x^2-4} \implies y=0, x_1 = -2, x_2 = 2$
 $g(x) = \frac{x(2x-1)}{(3x+1)(5x+7)} \implies y=\frac{2}{15}, x_1=-\frac{1}{3}, x_2 =-\frac{7}{5}$

@@ -12,21 +12,21 @@ style: |
   }
 
 title: Intro
-description: Intro slides to my abiturma course
+description: Intro slides to my Abiturma/Abicrash course
 ---
 # Vorbereitungplan
-Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Abiturma/Abicrash Abivorbereitungskurs
+Fasching 2024 München
 Vinzenz Männig
 
 ---
 <!--header: Vorbereitungplan | Allgemeines-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ### Allgemeines
 - Die Rezepte sind jetzt da, jetzt muss viel geübt werden!
 - Mathe ist wie Memorie spielen, man muss Situationen erkennen und zu schon gesehenen Aufgaben zuordnen
 - Wichtig ist Konstanz in der Vorbereitung, drei Tage vor dem Abitur anfangen ist zu spät.
-- Rechtzeitig mit den umfangreichen Aufgaben im Abiturma Buch anfangen
+- Rechtzeitig mit den umfangreichen Aufgaben im Abiturma/Abicrash Buch anfangen
 - In der Woche vor dem Matheabi jeden Tag ein Altabitur rechnen
 
 ---
@@ -46,7 +46,7 @@ https://chat.openai.com/chat
 ---
 <!--header: Vorbereitungplan | Private Nachhilfe-->
 Ansonsten:
-Abiturma Kurse in den Osterferien mit größerem Fokus auf Abituraufgaben, wahlweise auch Rechenkurs
+Abiturma/Abicrash Kurse in den Osterferien mit größerem Fokus auf Abituraufgaben, wahlweise auch Rechenkurs
 
 Private Nachhilfe:
-Im liebsten Face to Face (Arabellapark), online auch möglich. 30€/1h
+Prinzipiell ja, fragt mich persönlich

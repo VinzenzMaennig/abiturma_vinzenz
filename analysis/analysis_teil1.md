@@ -31,7 +31,7 @@ description: First part of the analysis slides
 
 ---
 <!--header: Analysis | Gleichungen-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ## Gleichungen, your turn!
 $x^2+x-2=0$
 $(x^2-4)(x-3)=0$
@@ -244,12 +244,12 @@ $\ln(x^2-8)=0$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 1,3,4 |
-| mittel | 2,5,6,7,8,9,10 |
-| schwer | 12,13 |
+| leicht | Extrablatt Gleichungen (OneDrive) |
+| mittel | A-14, A-43, A-44, A-45 |
+| schwer | A-15, A-17, A-46, A-47, A-48, A-49 |
 
 Für Schnelle und Unterforderte: 
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 
 ---
 
@@ -353,11 +353,11 @@ Da trigonometrische Funktionen periodisch sind, gibt es logischerweise unendlich
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht |  |
-| mittel | 17 |
+| mittel | A-21, A-23, A-24 |
 | schwer |  |
 
 Für Schnelle und Unterforderte: 
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Grundlagen und Funktionsklassen
 - Altabitur 2020 Analysis
 
@@ -433,12 +433,12 @@ $h(x)=\ln{(x-3)}$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht |  |
-| mittel | 17 |
-| schwer | 18 |
+| leicht | A-1 |
+| mittel | A-2 |
+| schwer |  |
 
 Für Schnelle und Unterforderte: 
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Grundlagen und Funktionsklassen
 - Altabitur 2020 Analysis
 
@@ -508,12 +508,12 @@ $l(x) = \frac{x^2+x}{ln x}$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 19, 22, 23, 24 |
-| mittel | 25, 26, 27, 28, 29, 30, 31, 32 |
-| schwer | 20, 21, 33, 34 |
+| leicht | A-33, A-30 |
+| mittel | A-34, A-31 |
+| schwer | A-32 |
 
 Für Schnelle und Unterforderte: 
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Ableitungen
 - Aufgabenblatt Analysis Grundlagen und Funktionsklassen
 - Altabitur 2020 Analysis
@@ -601,13 +601,13 @@ $y = -\frac{1}{3}x-\frac{10}{3}$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 35, 41 |
-| mittel | 36, 39, 40 |
-| schwer | 37, 38, 42 |
+| leicht | A-36, A-38 |
+| mittel | A-37, A-39, A-40, A-41 |
+| schwer | A-42 |
 
 Für Schnelle und Unterforderte: 
 - Extrablatt zu den Normalen mit Aufgaben 57, 58, 59
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Ableitungen
 - Aufgabenblatt Analysis Kurvendiskussion
 - Altabitur 2020 Analysis
@@ -711,12 +711,13 @@ $- \implies +$: Wechsel von Rechts- auf Linkskrümmung
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 43, 50, 52 |
-| mittel | 47, 48, 49, 53 |
-| schwer | 44, 46, 51 |
+| leicht | A-56, A-57, A-58, A-63 |
+| mittel | A-59, A-60, A-64, A-65, A-66, A-67 |
+| schwer | A-61, A-62, A-81 |
 
 Für Schnelle und Unterforderte: 
-- Aufgabe 87 ff.
+- Aufgabe A-76 (S. A-145) ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Ableitungen
 - Aufgabenblatt Analysis Kurvendiskussion
 - Altabitur 2020 Analysis
@@ -831,15 +832,14 @@ Keine waagrechte/schrägen Asymptote
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht |  |
-| mittel | 55, 56 |
+| mittel | A-9, A-10, A-11, A-12 |
 | schwer |  |
 
 Für Schnelle und Unterforderte: 
 - Aufgaben im Extradokument zu Gebrochenrationalen Funktionen
-- Aufgabe 87 ff.
-- Aufgabenblatt Analysis Ableitungen
+- Aufgabe A-76 (S. A-145) ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Kurvendiskussion
-- Altabitur 2020 Analysis
 
 ---
 
@@ -913,12 +913,13 @@ Beispiel
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 54, 57, 59 |
-| mittel | 58, 60, 61 |
-| schwer | 62 |
+| leicht | A-69, A-70, A-71 |
+| mittel | A-25, A-26, A-27, A-72, A-73 |
+| schwer | A-28, A-29, A-74, A-75 |
 
 Für Schnelle und Unterforderte: 
-- Aufgabe 87 ff.
+- Aufgabe A-76 (S. A-145) ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Kurvendiskussion
 - Altabitur 2020 Analysis
 

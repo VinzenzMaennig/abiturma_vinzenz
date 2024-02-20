@@ -24,7 +24,7 @@ description: Second part of the analysis slides
 
 ---
 <!--header: Analysis | Integration-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ### Integration
 - Eine Funktion $F$ ist eine Stammfunktion einer Funktion $f$, wenn gilt: $F^\prime(x) = f(x)$
 - Eine Stammfunktion ist bis auf eine Konstante *C* eindeutig (diese fällt beim Ableiten weg)
@@ -73,12 +73,12 @@ $g(x)= \frac{4 \mathrm e^{2x}+6}{\mathrm e^{2x}+3x-1}$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 64, 66 |
-| mittel | 63, 67, 68 |
-| schwer | 65 |
+| leicht | A-80, A-82 |
+| mittel | A-81  |
+| schwer |  |
 
 Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 ![h:200](images/aufgaben_logarithmische_substitution.jpg)
 
 ---
@@ -131,12 +131,12 @@ $\pi\left[\frac{1}{5}x^5+\frac{2}{3}x^3+x \right]_{-1}^1 = \pi\left(\frac{1}{5}+
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 70 |
-| mittel | 71a, 74, 75 |
-| schwer | 72 |
+| leicht | A-83, A-91  |
+| mittel | A-87, A-92, A-93, A-94 |
+| schwer | A-88, A-90, A-95, A-100, A-101, A-102 |
 
 Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgaben vom Extrablatt zu Rotationskörpern
 - Aufgabenblatt Analysis Integralrechnung
 - Altabitur 2020 Analysis
@@ -183,13 +183,13 @@ $= \lim \limits_{z \to \infty} -0+1 = 1$
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht |  |
-| mittel |  |
-| schwer | 76 |
+| mittel | A-84, A-85, A-86, A-98 |
+| schwer | A-99 |
 
 - Aufgaben vom Extrablatt zu Integralfunktionen
 
 Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Integralrechnung
 - Altabitur 2020 Analysis
 
@@ -256,13 +256,13 @@ Keine Ausnahmen $\implies \mathcal D = \mathbb R$
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
 | leicht |  |
-| mittel | 86 |
-| schwer |  |
+| mittel | A-112, A-113, A-114 |
+| schwer | A-115, A-116, A-117, A-118, A-119 |
 
 Für Schnelle und Unterforderte:
 - Wertemengen von: $f(x) = \mathrm e^x +4, \quad g(x)= 3x^2-2$
 $h(x) = \sqrt{x-4}-1, \quad i(x)= \frac{1}{x}, \quad j(x)=\frac{1}{(x-2)^2}$
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Umkehrfunktion
 - Altabitur 2020 Analysis
 ---

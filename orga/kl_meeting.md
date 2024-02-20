@@ -16,12 +16,12 @@ description: Intro slides to my abiturma course
 ---
 # Herzlich Willkommen!
 Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Fasching 2024 München
 Kursleiter Vorbesprechung
 
 ---
 <!--header: Intro | Kennenlernen-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Kursleiter Vorbesprechung-->
+<!--footer: Abiturma Abivorbereitungskurs | Fasching 2024 München | Kursleiter Vorbesprechung-->
 
 ## Kennenlernen
 ### Ich packe meinen Koffer

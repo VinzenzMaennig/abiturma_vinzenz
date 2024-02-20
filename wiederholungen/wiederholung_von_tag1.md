@@ -16,13 +16,13 @@ title: Refresher Day 1
 description: Exercises to reactivate day 1 skills
 ---
 # Willkommen zu Tag 2!
-Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Abiturma/Abicrash Abivorbereitungskurs
+Fasching 2024 München
 Vinzenz Männig
 
 ---
 <!--header: Wiederholung Tag 1-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 
 ##### Gleichungen lösen
 $x^3-x^2-4x=0, \quad \mathrm e ^{4x} = 4 \mathrm e^x, \quad \sqrt{x^2+4}+x-2=0$
@@ -35,7 +35,7 @@ $f(x) = x^2+x^3+\cos x, \quad g(x) = \mathrm e ^{3x^2+\sin x}, \quad h(x) = x^2 
 
 Für Schnelle und Unterforderte:
 - Aufgaben von gestern
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - $\sqrt{x^2+4}-x+2=0$, warum ist hier $x=0$ keine Lösung?
 
 ---

@@ -25,7 +25,7 @@ description: Stochastic slides
 - Hypothesentests
 
 ---
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 <!--header: Grundlagen-->
 ### Grundlagen
 - Ergebnis: Ausgangsmöglichkeit eines Zufallsexperiments
@@ -71,13 +71,13 @@ Beispiel: In einer Schulklasse haben 12 SchülerInnen mindestens ein Haustier un
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 162, 163, 164, 165, 166 |
-| mittel | 167, 169, 170 |
-| schwer | |
+| leicht | S-4, S-5, S-6, S-7 |
+| mittel | S-8, S-9, S-10 |
+| schwer | S-11, S-12 |
 
 Für Schnelle und Unterforderte: 
-- Aufgaben 205 ff.
 - Aufgabenblatt Stochastik Grundlagen (2018 A1, 2015 B2)
+- Aufgabe S-91 ff.
 - Altabitur 2020 Stochastik
 - Altabitur 2021 Stochastik
 
@@ -93,10 +93,6 @@ Für Schnelle und Unterforderte:
 Ist Steve eher ein Bibliothekar oder ein Bauer?
 
 ---
-### Bedingte Wahrscheinlichkeit versus Schnittwahrscheinlichkeit
-
-
----
 ### Bedingte Wahrscheinlichkeiten und Baumdiagramme
 $P_B(A) = P(A|B)=\frac{P(A\cap B)}{P(B)}$
 
@@ -108,12 +104,13 @@ Beispiel: In einer Schulklasse befinden sich 10 blauäugige und 15 SchülerInnen
 2. Formel anwenden
 
 ---
-##### Baumdiagram zeichnen
+##### Baumdiagramm zeichnen
 - Die Wahrscheinlichkeit eines Pfades ist das Produkt der Einzelwahrscheinlichkeiten
 - Die Gesamtwahrscheinlichkeit eines Ereignisses ist die Summe der Wahrscheinlichkeiten aller günstigen Pfade.
 
 ---
-Weiteres Beispiel: In einer Urne befinden sich zwei weiße und zwei schwarze Kugeln. Es werden nacheinander zwei Kugeln ohne Zurücklegen gezogen. Was ist die Wahrscheinlichkeit zwei unteschiedliche Kugeln zu ziehen?
+##### Beispiel
+In einer Urne befinden sich zwei weiße und zwei schwarze Kugeln. Es werden nacheinander zwei Kugeln ohne Zurücklegen gezogen. Was ist die Wahrscheinlichkeit zwei unteschiedliche Kugeln zu ziehen?
 
 ---
 ##### Ziehen mit und ohne zurücklegen
@@ -135,14 +132,7 @@ $P_A(B)=\frac{P(A\cap B)}{P(A)} = \frac{P(A\cap B)}{P(A\cap B) + P(A\cap {\overl
 da $P(A)= P(A\cap B) + P(A\cap {\overline B})$
 
 ---
-##### Satz von Bayes (NICHT Abirelevant, aber spannend)
-$P_B(A)=\frac{P(A\cap B)}{P(B)} \implies P(A\cap B) = P_B(A)P(B)$
-$P_A(B)=\frac{P(A\cap B)}{P(A)}$
-
-Einsetzen:
-$P_A(B)=\frac{P_B(A)P(B)}{P(A)}$
-
-Die bedingte Wahrscheinlichkeit kann also ganz einfach umgedreht werden!
+##### Zurück zu Steve
 
 ---
 ##### Bedingte Wahrscheinlichkeit vs Schnitt erkennen
@@ -172,15 +162,14 @@ Bedingte Wahrscheinlichkeiten:
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht |  |
-| mittel | 171, 172, 173 |
-| schwer | 174 |
+| leicht | S-13, S-14, S-15 |
+| mittel | S-16, S-17, S-18, S-20, S-21, S-22, S-23, S-24, S-25 |
+| schwer | S-26, S-27, S-28, S-29, S-30, S-31 |
 
 Für Schnelle und Unterforderte: 
-- Aufgaben 205 ff.
 - Aufgabenblatt Stochastik Grundlagen
+- Aufgabe S-91 ff.
 - Altabitur 2020 Stochastik
-- Altabitur 2021 Stochastik
 
 ---
 
@@ -250,13 +239,13 @@ Es werden Lose gezogen. Ein Sieg bringt 20€, eine Niete bringt 1€ Trostpreis
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 179, 182 |
-| mittel | 181 |
-| schwer | 180 |
+| leicht | S-40, S-41 |
+| mittel | S-42, S-43, S-44, S-45, S-46, S-47 |
+| schwer | S-48, S-49 |
 
 Für Schnelle und Unterforderte:
-- Aufgaben 205 ff.
 - Aufgabenblatt Stochastik Grundlagen
+- Aufgabe S-91 ff.
 - Aufgabenblatt Zufallsgrößen
 - Altabitur 2020 Stochastik, 2021 Stochastik
 
@@ -334,13 +323,13 @@ $h(k | N;M;n) = h_{N;M;n}(k) = P(X=k) = \frac{\begin{pmatrix}M \\ k\end{pmatrix}
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht |  |
-| mittel | 183, 184 |
-| schwer |  |
+| leicht | S-32, S-33 |
+| mittel | S-34, S-35 |
+| schwer | S-36, S-37, S-38, S-39 |
 
 Für Schnelle und Unterforderte:
-- Aufgaben 205 ff.
 - Aufgabenblatt Stochastik Grundlagen
+- Aufgabe S-91 ff.
 - Aufgabenblatt Zufallsgrößen
 - Altabitur 2020 Stochastik, 2021 Stochastik
 
@@ -416,13 +405,13 @@ $F(5;0.4;2 \leq k \leq 4) = F(5;0.4;k\leq 4) - F(5;0.4;k\leq 1)$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht | 187, 194 |
-| mittel | 188, 189, 190, 195, 196 |
-| schwer | 191, 193, 197, 198, 199 |
+| leicht | S-50 bis S-55 |
+| mittel | S-56, S-57, S-58 |
+| schwer | S-59, S-60, S-61, S-62 |
 
 Für Schnelle und Unterforderte:
-- Aufgaben 205 ff.
 - Aufgabenblatt Binomialverteilung
+- Aufgabe S-91 ff.
 - Altabitur 2020 Stochastik
 - Altabitur 2021 Stochastik
 
@@ -473,13 +462,13 @@ $p\geq 1-\sqrt[100]{0.05} =0.030$
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht |  |
-| mittel | 200, 201, 202 |
-| schwer |  |
+| leicht | S-63, S-64 |
+| mittel | S-65, S-66 |
+| schwer | S-67, S-68 |
 
 Für Schnelle und Unterforderte:
-- Aufgaben 205 ff.
 - Aufgabenblatt Binomialverteilung
+- Aufgabe S-91 ff.
 - Altabitur 2020 Stochastik
 - Altabitur 2021 Stochastik
 
@@ -512,15 +501,21 @@ getestet. Hierzu wird folgende Entscheidungsregel festgesetzt: Es werden 10 Tafe
 = 1 - $\left(\begin{pmatrix}10 \\ 0\end{pmatrix} \cdot 0.1^0 \cdot 0.9^{10} + \begin{pmatrix}10 \\ 1\end{pmatrix} \cdot 0.1^1 \cdot 0.9^{9}\right) =0.26$
 
 ---
+##### Fehler 1. Art berechnen
+
+---
+
+---
 ### Hypothesentests: Rechenblock
 
 | Schwierigkeit | Aufgaben |
 | ----------- | ----------- |
-| leicht |  |
-| mittel | 203, 204 |
-| schwer |  |
+| leicht | S-71, S-72, S-73 |
+| mittel | S-74, S-75, S-76 |
+| schwer | S-77, S-78, S-79 |
 
 Für Schnelle und Unterforderte:
-- Aufgaben 205 ff.
+- Aufgabe S-91 ff.
+- Aufgabenblatt Binomialverteilung
 
 ---

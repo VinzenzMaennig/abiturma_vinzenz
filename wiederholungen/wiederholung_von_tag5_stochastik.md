@@ -16,13 +16,13 @@ title: Refresher Day 4
 description: Exercises to reactivate day 4 skills
 ---
 # Willkommen zu Tag 6!
-Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Abiturma/Abicrash Abivorbereitungskurs
+Fasching 2024 München
 Vinzenz Männig
 
 ---
 <!--header: Wiederholung Tag 5-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 Ein Mensch raucht mit einer WSK von 25%. Es ist bekannt, dass 70% aller Menschen weder rauchen noch Bubatz konsumieren. 15% der Bevölkerung konsumiert Bubatz. Erstelle ein vollständig beschriftetes Baumdiagramm und gib an, wie viele Raucher Bubatz kosumieren und wie viele Menschen, die Bubatz kosumieren rauchen.
 
 Bei einem 3-Punkte Wettbewerb im Basketball wird 5 mal geworfen. LeJames triff mit einer WSK von 88% und C. Surry mit einer WSK von 91%. Wie groß ist die Wahrscheinlichkeit, dass mindestens einer von ihnen vorbei wirft?

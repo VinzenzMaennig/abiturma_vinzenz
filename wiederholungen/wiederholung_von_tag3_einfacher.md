@@ -16,13 +16,13 @@ title: Refresher Day 3
 description: Exercises to reactivate day 3 skills
 ---
 # Willkommen zu Tag 4!
-Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Abiturma/Abicrash Abivorbereitungskurs
+Fasching 2024 München
 Vinzenz Männig
 
 ---
 <!--header: Wiederholung Tag 4-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ##### Bestimme alle Asymptoten
 $f(x) = \frac{5x^2+2x-7}{x}, \quad g(x) = \frac{2x^2(4-x)}{x^3(x+2)}$
 

@@ -16,13 +16,13 @@ title: Refresher Day 2
 description: Exercises to reactivate day 2 skills
 ---
 # Willkommen zu Tag 3!
-Abiturma Abivorbereitungskurs
-Ostern 2023 München
+Abiturma/Abicrash Abivorbereitungskurs
+Fasching 2024 München
 Vinzenz Männig
 
 ---
 <!--header: Wiederholung Tag 2-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ![h:400](../analysis/images/repeat_day2_graph1.jpg)
 1. $f(x) = -x^5 + x^3 +2$
 2. $g(x) = -2x^5 + 2$

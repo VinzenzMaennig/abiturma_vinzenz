@@ -23,7 +23,7 @@ description: Third part of the analysis slides, advanced topics
 
 ---
 <!--header: Analysis | Extremwertaufgaben-->
-<!--footer: Abiturma Abivorbereitungskurs | Ostern 2023 München | Vinzenz Männig-->
+<!--footer: Abiturma/Abicrash Abivorbereitungskurs | Fasching 2024 München | Vinzenz Männig-->
 ### Extremwertaufgaben
 ##### Kaninchengehege
 
@@ -50,7 +50,7 @@ Sei P(u|v) ein Punkt auf dem Graphen von $f(x) = -x^2+4x$ mit $0 \leq u\leq 3$. 
 | schwer | 77, 78 |
 
 Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Altabitur 2020 Analysis
 - Altabitur 2021 Analysis
 
@@ -101,7 +101,7 @@ $G_f$ geht durch Punkt $W( 1 | 1 )$ $\implies f(1) = 1$
 | schwer | 79, 80, 81, 85 |
 
 Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Besondere Aufgabentypen
 - Altabitur 2020 Analysis
 - Altabitur 2021 Analysis
@@ -129,7 +129,7 @@ $f_t (x) = x^2 + tx + 1 - t$
 | schwer | 82, 83, 84 |
 
 Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Besondere Aufgabentypen
 - Altabitur 2020 Analysis
 - Altabitur 2021 Analysis
@@ -167,7 +167,7 @@ Es muss also eine Ungeichung, wie bei den Definitionsbereichen gelöst werden!
 - Bestimme einen Bereich für $a$, sodass $f(x) = \sqrt{x-1}$ und $g_a(x)=ax$ mindestens einen Schnittpunkt haben
 
 Für Schnelle und Unterforderte:
-- Aufgabe 87 ff.
+- Aufgabe A-161 (S. A-264) ff.
 - Aufgabenblatt Analysis Besondere Aufgabentypen
 - Altabitur 2020 Analysis
 - Altabitur 2021 Analysis
